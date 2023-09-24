@@ -2,14 +2,10 @@
 title: 깃허브 액션으로 CI&CD대작전
 date: 2023-08-17
 categories: [troubleshooting]
+tags: [CI/CD, docker, github-actions]
 ---
 
-# [트러블슈팅]깃허브 액션으로 CI&CD대작전
-
-날짜: 2023년 8월 17일
-태그: CI/CD, docker, github, 블로그
-
-# 깃허브 액션으로 CI&CD대작전
+# [트러블슈팅] 깃허브 액션으로 CI&CD대작전
 
 ## 🤔 Problem
 

@@ -1,15 +1,11 @@
 ---
 title: Postgresql 과 prisma 로 배우는 관계형 데이터 베이스
 date: 2023-08-13
-categories: [troubleshooting]
+categories: [blog]
+tags: [postgresql, prisma, rdms, orm]
 ---
 
-# [블로그] Postgresql 과 prisma 로 배우는 관계형 데이터 베이스
-
-날짜: 2023년 8월 13일
-태그: postgresql, prisma, 블로그
-
-# postgreSQL 과 prisma 로 배우는 관계형 데이터 베이스
+# [블로그] postgreSQL 과 prisma 로 배우는 관계형 데이터 베이스
 
 ## 🤔 개론
 
@@ -17,7 +13,7 @@ categories: [troubleshooting]
 
 전장의 안개라는 지도 사용 프로젝트를 하면서 **지리정보 저장에 용이**하다는 PostgreSQL 을 사용해보기로 했다. MySQL 보다 복잡한 **대규모 분석 프로세스에 적합**하다는 부분도 추후 서비스 고도화 시 사용자들의 활동 기록을 분석할 때에 강한 이점이 될 것 같았다. 엘리스에서 수정코치님께 배웠던 내용처럼 **JSON 형식의 컬럼**을 지정할 수 있다는 점도 매력적이었다. FastAPI 강의를 들었던 Amigoscode 선생님의 유튜브 강의로 차근차근 명령어를 학습하며 60 강까지 수강 완료했다.
 
-### **Prisma 를 선택한 이유**
+### Prisma 를 선택한 이유
 
 SQL 문법에 익숙해질 겸 클라이언트 코드를 직접 작성해보는 것이 좋을지, ORM 을 쓰는 것이 좋을지 고민이 많았다.
 그러다가 최신 Nest.js 강의를 들어보면서 사용해본 Prisma 의 사용 경험이 압도적으로 좋았기 때문에 스키마만 정해주면 프리즈마가 Postgresql 문법을 자동으로 생성해주기도 하고, 마이그레이션도 압도적으로 편리하고, 데이터를 보고 싶을 때 별도의 프로그램 설치 없이 명령어 한 번에 GUI 로 편하게 확인할 수 있는 점이 관계형 DB 입문자인 나에게 심리적 안정을 주었다.

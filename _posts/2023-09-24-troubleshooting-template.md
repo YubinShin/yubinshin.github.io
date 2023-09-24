@@ -4,11 +4,6 @@ date: 2023-09-24
 categories: [blog]
 ---
 
-# 트러블슈팅 템플릿
-
-출처: https://www.atlassian.com/ko/software/confluence/templates/troubleshooting-article
-태그: 트러블슈팅
-
 # 트러블 슈팅 제목
 
 ## 🤔 Problem

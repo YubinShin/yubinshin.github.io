@@ -3,6 +3,7 @@ title: AWS S3, 몽고 디비 마이그레이션 대작전
 date: 2023-06-15
 categories: [troubleshooting]
 layout: post
+tags: [fastAPI, aws-s3, mongoDB]
 ---
 
 # [트러블슈팅]AWS S3, 몽고 디비 마이그레이션 대작전
@@ -27,7 +28,8 @@ S3 get 요청이 무료 기준인 20000번을 넘어가서 발생한 일이었�
     [최신 버전의 AWS CLI 설치 또는 업데이트 - AWS Command Line Interface](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/getting-started-install.html)
 2.  DB 내 이미지 url 변경하기
     마이그레이션 된 버킷에서 생성된 이미지 주소로 몽고디비에 기록된 링크를 교체합니다.
-    ```bash
+
+    ````bash
     from fastapi import FastAPI, HTTPException
     from pymongo import MongoClient
 
@@ -52,6 +54,7 @@ S3 get 요청이 무료 기준인 20000번을 넘어가서 발생한 일이었�
             else:
                 raise HTTPException(status_code=404, detail="조건과 일치하는 문서를 찾을 수 없습니다.")
         ```
+    ````
 
 ## 📎 Related articles
 

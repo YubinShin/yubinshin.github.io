@@ -3,6 +3,7 @@ title: 엘리스 1차 프로젝트 회고
 date: 2023-04-21
 categories: [reviews]
 layout: post
+tags: [elice]
 ---
 
 # 엘리스 1차 프로젝트 회고

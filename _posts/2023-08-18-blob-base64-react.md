@@ -2,14 +2,10 @@
 title: 이미지를 다른 페이지로 넘겨주기 대작전(blob 과 base64)
 date: 2023-08-18
 categories: [troubleshooting]
+tags: [base64, blob, react]
 ---
 
 # [트러블슈팅]이미지를 다른 페이지로 넘겨주기 대작전(blob 과 base64)
-
-날짜: 2023년 8월 18일
-태그: 블로그, 트러블슈팅
-
-# 트러블 슈팅 제목
 
 ## 🤔 Problem
 

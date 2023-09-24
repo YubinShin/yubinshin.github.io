@@ -3,12 +3,22 @@ title: 맛이슈 배포 대작전
 date: 2023-06-23
 categories: [blog]
 layout: post
+tags:
+  [
+    gcp,
+    cloud,
+    deploy,
+    ssh,
+    nginx,
+    pm2,
+    python,
+    seo,
+    uvicorn,
+    certbot,
+    nohup,
+    linux
+  ]
 ---
-
-# [배포]맛이슈 배포 대작전
-
-날짜: 2023년 6월 3일
-태그: linux, nginx, pm2, 블로그
 
 # 맛이슈 배포 대작전
 

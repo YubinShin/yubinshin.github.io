@@ -2,6 +2,7 @@
 title: VM에 ID,PW로 접속하려면 대작전
 date: 2023-05-18
 categories: [troubleshooting]
+tags: [gcp, cloud, deploy, ssh]
 ---
 
 # [트러블슈팅]VM에 ID,PW로 접속하려면 대작전

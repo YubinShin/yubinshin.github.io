@@ -1,5 +1,5 @@
 ---
-title: [트러블슈팅] Docker & Docker-compose
+title: Docker & Docker-compose
 date: 2023-08-17
 categories: [troubleshooting]
 tags: [CI/CD, docker, docker-compose]

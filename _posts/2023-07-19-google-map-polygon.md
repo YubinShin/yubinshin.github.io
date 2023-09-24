@@ -1,5 +1,5 @@
 ---
-title: [트러블슈팅] 구글맵 폴리곤으로 서울만 보이게 하기(동균, 유빈) (1)
+title: 구글맵 폴리곤으로 서울만 보이게 하기(동균, 유빈) (1)
 date: 2023-07-19
 categories: [troubleshooting]
 layout: post

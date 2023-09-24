@@ -1,5 +1,5 @@
 ---
-title: [블로그] Postgresql 과 prisma 로 배우는 관계형 데이터 베이스
+title: Postgresql 과 prisma 로 배우는 관계형 데이터 베이스
 date: 2023-08-13
 categories: [blog]
 tags: [postgresql, prisma, rdms, orm]

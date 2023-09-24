@@ -1,5 +1,5 @@
 ---
-title: [트러블슈팅] 클라우드 서버 금액이 부담 스러울땐? (라즈베리파이)
+title: 클라우드 서버 금액이 부담 스러울땐? (라즈베리파이)
 date: 2023-07-09
 categories: [troubleshooting]
 layout: post

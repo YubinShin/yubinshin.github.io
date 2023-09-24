@@ -1,5 +1,5 @@
 ---
-title: [트러블슈팅] 맛이슈 속도 개선 대작전
+title: 맛이슈 속도 개선 대작전
 date: 2023-06-21
 categories: [troubleshooting]
 layout: post

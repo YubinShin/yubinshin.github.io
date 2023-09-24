@@ -1,5 +1,5 @@
 ---
-title: [회고] 엘리스 1차 스터디 회고
+title: 엘리스 1차 스터디 회고
 date: 2023-04-07
 categories: [reviews]
 tags: [elice]

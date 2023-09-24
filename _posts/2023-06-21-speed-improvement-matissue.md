@@ -1,5 +1,5 @@
 ---
-title: 맛이슈 속도 개선 대작전
+title: [트러블슈팅] 맛이슈 속도 개선 대작전
 date: 2023-06-21
 categories: [troubleshooting]
 layout: post
@@ -7,9 +7,6 @@ tags: [fastAPI, improvement, mongoDB, redis]
 ---
 
 # [트러블슈팅]맛이슈 속도 개선 대작전
-
-날짜: 2023년 6월 21일
-태그: 블로그, 작성중, 트러블슈팅
 
 # 맛이슈 속도 개선 대작전
 

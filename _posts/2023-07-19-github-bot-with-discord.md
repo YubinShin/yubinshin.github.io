@@ -1,5 +1,5 @@
 ---
-title: 디스코드로 깃허브 알림봇 만들기 대작전
+title: [트러블슈팅] 디스코드로 깃허브 알림봇 만들기 대작전
 date: 2023-07-19
 categories: [troubleshooting]
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: 구글맵 폴리곤으로 서울만 보이게 하기(동균, 유빈) (1)
+title: [트러블슈팅] 구글맵 폴리곤으로 서울만 보이게 하기(동균, 유빈) (1)
 date: 2023-07-19
 categories: [troubleshooting]
 layout: post
@@ -7,9 +7,6 @@ tags: [google-map-api, react, kml]
 ---
 
 # [트러블슈팅]구글맵 폴리곤으로 서울만 보이게 하기(동균, 유빈) (1)
-
-날짜: 2023년 7월 19일
-태그: google, map, 블로그
 
 [https://jsfiddle.net/dL5gaouy/13/](https://jsfiddle.net/dL5gaouy/13/)
 

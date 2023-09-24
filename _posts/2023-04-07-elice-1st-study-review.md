@@ -23,15 +23,11 @@ layout: post
 
 리더가 되는 걸 꺼리지는 않는 편이라 내가 하고 싶은 스터디를 만들기로 했다.
 
-![VideoGamesGIF.gif](elice_1st_study_review/VideoGamesGIF.gif)
-
 내가 웹개발을 시작하게 된 건 사실 어릴때 한게임, 주전자닷컴에서 했던 플래시 게임들을 내 전공과 결합해 보고 싶어서 였다. 지금은 플래시가 사라졌지만, 그 게임들이 html5로 다시 업로드 되어있는 페이지를 찾았다.
 
 [https://vidkidz.tistory.com/](https://vidkidz.tistory.com/)
 
 그래서 레퍼런스는 충분하겠다! 나와 비슷하게 만드는걸 좋아하는 분들을 모아 보기로 했다.
-
-![Untitled](elice_1st_study_review/Untitled.png)
 
 노션페이지([뿅뿅 엘리스 오락실](https://www.notion.so/ac38d3606fc74cf0b75312635bb98e48?pvs=21) )를 만들고 디스코드에 홍보하자 1시간 안에 7명이 모였다.
 역시 재밌는 건 항상 옳다ㅎㅎ
@@ -57,16 +53,10 @@ layout: post
 
 이런식으로 5개의 폴더를 만들고, 인원 수대로 발표자료 템플릿을 만들어 각각의 폴더에 넣어주었다. 이렇게 하면 통일된 자료를 가질 수 있어서 관리자는 관리하기가 편리하고, 발표자들은 최대한 공수가 줄어 성실하게 개발할 수 있게끔 의도했다.
 
-![Untitled](elice_1st_study_review/Untitled%202.png)
-
-![Untitled](elice_1st_study_review/Untitled%203.png)
-
 발표 규칙은
 
 1. 발표자료 멋있게 만들기 금지!
 2. 2~3장 정도로 이번주에 진행한 사항 이야기하기
-
-   ![Untitled](elice_1st_study_review/Untitled%204.png)
 
 따로 ppt를 양식에 맞춰 생성하고..이름을 적고.. 제목을 통일하고.. 나도 예전에 이런 과정에서 매우 피로도를 느꼈기 때문에 한번에 생성해주는 방법을 선택했는데, 아마 팀원들이 직접 발표자료를 만들게끔 했다면 매주 발표가 100프로 실패했을거라 생각한다.
 
@@ -75,12 +65,6 @@ layout: post
 ### 매주 일요일 오후 2시에 정기 미팅
 
 매주 일요일 점심 먹고 편하게 한주 간 진행한 내용을 공유하고, 서로 궁금한 점을 질문하거나 피드백을 나누는 시간을 가졌다. 양식이 정해진게 아니라 각각의 취향이 담긴 작품을 만들었기 때문에 서로 궁금한 점도 많고 배울 점도 많았다.
-
-![image1.png](elice_1st_study_review/image1.png)
-
-![image2.png](elice_1st_study_review/image2.png)
-
-![image3.png](elice_1st_study_review/image3.png)
 
 초기엔 대부분 일반 DOM으로 제작을 시작했는데, 후반으로 가면서 다들 canvas 태그를 사용하게 됐다. 확실히 부드러운 움직임이 필요한 게임에서는 필수인 요소였다.(나도 버티다가 한번 날 잡고 canvas 강의를 하루종일 보면서 따라해봤는데 배우고 나니 꽤 편리했다.)
 

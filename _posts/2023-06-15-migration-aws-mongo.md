@@ -16,10 +16,6 @@ layout: post
 
 배포 이틀 전, AWS S3 이미지 서버를 사용하던 중 프리티어가 터졌다!
 
-![Untitled](%5B%E1%84%90%E1%85%B3%E1%84%85%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%89%E1%85%B2%E1%84%90%E1%85%B5%E1%86%BC%5DAWS%20S3,%20%E1%84%86%E1%85%A9%E1%86%BC%E1%84%80%E1%85%A9%20%E1%84%83%E1%85%B5%E1%84%87%E1%85%B5%20%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%80%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20%E1%84%83%E1%85%A2%E1%84%8C%20a7e5ff79ddff4c87a81365489946a3ac/Untitled.png)
-
-![스크린샷 2023-07-11 오후 8.20.04.png](%5B%E1%84%90%E1%85%B3%E1%84%85%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%89%E1%85%B2%E1%84%90%E1%85%B5%E1%86%BC%5DAWS%20S3,%20%E1%84%86%E1%85%A9%E1%86%BC%E1%84%80%E1%85%A9%20%E1%84%83%E1%85%B5%E1%84%87%E1%85%B5%20%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%80%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB%20%E1%84%83%E1%85%A2%E1%84%8C%20a7e5ff79ddff4c87a81365489946a3ac/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-07-11_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_8.20.04.png)
-
 S3 get 요청이 무료 기준인 20000번을 넘어가서 발생한 일이었다 🥹
 
 ## 🌱 Solution
@@ -28,12 +24,12 @@ S3 get 요청이 무료 기준인 20000번을 넘어가서 발생한 일이었�
 
 1.  **[AWS S3 Bucket 마이그레이션 하기](https://interconnection.tistory.com/119)**
     새로운 **AWS 프리티어 계정**과 **AWS CLI**가 필요합니다.
-        [최신 버전의 AWS CLI 설치 또는 업데이트 - AWS Command Line Interface](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/getting-started-install.html)
+    [최신 버전의 AWS CLI 설치 또는 업데이트 - AWS Command Line Interface](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/getting-started-install.html)
 2.  DB 내 이미지 url 변경하기
     마이그레이션 된 버킷에서 생성된 이미지 주소로 몽고디비에 기록된 링크를 교체합니다.
-        ```bash
-        from fastapi import FastAPI, HTTPException
-        from pymongo import MongoClient
+    ```bash
+    from fastapi import FastAPI, HTTPException
+    from pymongo import MongoClient
 
         app = FastAPI()
 

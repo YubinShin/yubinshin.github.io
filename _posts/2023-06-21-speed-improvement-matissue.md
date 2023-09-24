@@ -32,21 +32,25 @@ layout: post
     2. 데이터베이스 자체에 접근하는 횟수를 줄이는 것
     - MongoDB Atlas 에서 제공하는 **pipeline**으로 해결할 수 있었다.
       여러개의 작업을 중첩으로 처리하여 작업 처리량과 시간적 효율을 향상시킨다.
-    백엔드 엔지니어로서 api의 호출을 줄일 수 있는 방법, db 접근 횟수를 줄일 수 있는 방법 등 여러 방식으로 성능 개선이 가능하다는 것을 알 수 있었다.
-    추가로 리팩토링 시 **캐싱**을 적용해볼 예정이다.
+      백엔드 엔지니어로서 api의 호출을 줄일 수 있는 방법, db 접근 횟수를 줄일 수 있는 방법 등 여러 방식으로 성능 개선이 가능하다는 것을 알 수 있었다.
+      추가로 리팩토링 시 **캐싱**을 적용해볼 예정이다.
 
 ## 🌱 Solution
 
 1. BE ) 도커이미지로 **백엔드서버와 redis 서버**를 하나의 머신에서 실행
+
    - 상세
      도커 설치 공식홈페이지
      [https://docs.docker.com/desktop/install/linux-install/](https://docs.docker.com/desktop/install/linux-install/)
      설치 후 프로젝트 루트 폴더에 docker-compose.yml 을 위치시키고 실행합니다.
+
      ```bash
       $ cd dev-be
       $ sudo docker-compose up --build
      ```
+
      - docker-compose.yml
+
        ```bash
        version: "3.8"
 
@@ -90,6 +94,7 @@ layout: post
              - "./letsencrypt:/letsencrypt"
 
        ```
+
 2. BE ) **파이프 라인**을 사용하여 레시피를 가져오는 쿼리를 개선
    - 깃허브 코드
      기존 데이터베이스에는 여러번 접근하기도 하고 메서드가 끝날때마다 새로 함수를 시작했다면, 파이프라인으로 순차적으로 쿼리를 실행하게 작성하였습니다.
@@ -111,7 +116,6 @@ layout: post
              result = await self.collection.aggregate(pipeline).to_list(length=None)
              return result
      ```
-     ![스크린샷 2023-07-28 오후 5.53.47.png](%5B%E1%84%90%E1%85%B3%E1%84%85%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%89%E1%85%B2%E1%84%90%E1%85%B5%E1%86%BC%5D%E1%84%86%E1%85%A1%E1%86%BA%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B2%20%E1%84%89%E1%85%A9%E1%86%A8%E1%84%83%E1%85%A9%20%E1%84%80%E1%85%A2%E1%84%89%E1%85%A5%E1%86%AB%20%E1%84%83%E1%85%A2%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%A5%E1%86%AB%208429d2c4babd41b08a9601d298eaee86/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-07-28_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_5.53.47.png)
      **깃허브 링크**
      [🔗기존코드](https://github.com/YubinShin/matissue-BE/blob/8766a33fedae29baa51fd6de711bf41033d1fe74/dao/recipe_dao.py)
      [🔗속도개선코드](https://github.com/YubinShin/matissue-BE/blob/2b0e8c1a4e1dfa4032e8ea56b33f324bd5d33116/dao/recipe_dao.py)

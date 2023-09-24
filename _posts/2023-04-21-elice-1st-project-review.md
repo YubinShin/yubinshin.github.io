@@ -2,6 +2,7 @@
 title: 엘리스 1차 프로젝트 회고
 date: 2023-04-21
 categories: [reviews]
+layout: post
 ---
 
 # 엘리스 1차 프로젝트 회고
@@ -131,9 +132,9 @@ git 을 사용할때 내가 어느 브랜치에 있는지 바로바로 확인이
     2번에서 배운 리눅스를 실전에서 열심히 써봤다. 일단 내 linux 컴퓨터에 python3, pip로 aws cli를 설치하고 access-key-ID, secret-access-key 를 적어주면 된다. 이 부분이 너무 오래 걸려서 코치님들께도 여쭤봤는데 aws가 정말 개복치마냥 예민한 친구라 하나라도 다르면 적용이 되지 않는다고 했다 🥹 그래서 결국 새벽까지 싸우다가 내가 이겼다 크크
     [aws](https://www.notion.so/aws-f3f5a4699a244164917190e1081a90ac?pvs=21)
     `bash
-    sudo mkdir ~/.aws
-    sudo vim ~/.aws/credentials
-    `
+sudo mkdir ~/.aws
+sudo vim ~/.aws/credentials
+`
 4.  **aws-sdk**
 
     ```

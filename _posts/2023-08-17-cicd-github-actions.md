@@ -5,8 +5,6 @@ categories: [troubleshooting]
 tags: [CI/CD, docker, github-actions]
 ---
 
-# [트러블슈팅] 깃허브 액션으로 CI&CD대작전
-
 ## 🤔 Problem
 
 **백엔드 api 서버**와 **DB**와 **https 인증**까지 한번에 돌려야하는 상황이 생겼다. docker-compose 를 사용하면서도 내 m1 아이맥에서 빌드를 하니 한번 빌드하는데 200여초가 걸렸다.
@@ -33,7 +31,7 @@ tags: [CI/CD, docker, github-actions]
 
 ### github secret 과 Dockerfile 연결
 
-[](https://github.com/fog-of-war/dev-be/blob/dev/Dockerfile)
+[Dockerfile](https://github.com/fog-of-war/dev-be/blob/dev/Dockerfile)
 
 ### ~~github actions runner~~
 

@@ -6,8 +6,6 @@ layout: post
 tags: [fastAPI, aws-s3, mongoDB]
 ---
 
-# [트러블슈팅]AWS S3, 몽고 디비 마이그레이션 대작전
-
 ## 🤔 Problem
 
 배포 이틀 전, AWS S3 이미지 서버를 사용하던 중 프리티어가 터졌다!

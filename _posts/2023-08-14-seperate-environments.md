@@ -5,8 +5,6 @@ categories: [troubleshooting]
 tags: [.env, node.js, nest.js, package.json]
 ---
 
-# [트러블슈팅] 개발, 프로덕션, 테스트 환경 분리 대작전(Package.json 과 env)
-
 ## 🤔 Problem
 
 로컬에서 개발을 하면서 Dev 용 데이터베이스와 Test 용 데이터베이스를 분리해서 진행하고 싶었다.

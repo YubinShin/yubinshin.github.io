@@ -20,8 +20,6 @@ tags:
   ]
 ---
 
-# [배포] 맛이슈 배포 대작전
-
 ## FE
 
 [맛이슈](https://www.matissue.com/)

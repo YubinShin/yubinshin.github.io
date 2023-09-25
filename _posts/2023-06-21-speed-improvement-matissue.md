@@ -6,10 +6,6 @@ layout: post
 tags: [fastAPI, improvement, mongoDB, redis]
 ---
 
-# [트러블슈팅]맛이슈 속도 개선 대작전
-
-# 맛이슈 속도 개선 대작전
-
 ## 🤔 Problem
 
 맛이슈 사이트가 로그인, 댓글불러오기 등 여러방면에서 속도가 느린 것을 확인했다.

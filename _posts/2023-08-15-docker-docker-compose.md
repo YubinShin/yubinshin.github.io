@@ -5,8 +5,6 @@ categories: [troubleshooting]
 tags: [CI/CD, docker, docker-compose]
 ---
 
-# [트러블슈팅] Docker & Docker-compose
-
 ## 🤔 Problem
 
 Nest.js 와 PostgreSql 을 함께 사용하면서 병렬적으로 여러 프로그램을 한번에 실행하고 싶다는 생각을 했다.

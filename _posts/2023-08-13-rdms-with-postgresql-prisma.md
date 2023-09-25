@@ -5,8 +5,6 @@ categories: [blog]
 tags: [postgresql, prisma, rdms, orm]
 ---
 
-# [블로그] postgreSQL 과 prisma 로 배우는 관계형 데이터 베이스
-
 ## 🤔 개론
 
 ### PostgreSQL 을 선택한 이유

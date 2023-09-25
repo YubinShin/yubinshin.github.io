@@ -7,7 +7,7 @@ tags: [CI/CD, docker, github-actions]
 
 ## 🤔 Problem
 
-**백엔드 api 서버**와 **DB**와 **https 인증**까지 한번에 돌려야하는 상황이기에 컨테이너를 사용해야했다.
+백엔드 api 서버와 DB와 https 인증까지 한번에 돌려야하는 상황이기에 **컨테이너**를 사용해야했다.
 
 컨테이너로 올리기 위해 도커이미지 빌드를 진행했는데 m1 아이맥 기준, 1회 빌드하는데 200여초가 걸렸다.
 
@@ -80,7 +80,7 @@ services:
     labels:
       - "com.centurylinklabs.watchtower.enable=true"
       - "traefik.enable=true"
-      - "traefik.http.routers.web.rule=Host(`fogofwar.p-e.kr`)"
+      - "traefik.http.routers.web.rule=Host(`api.yubinhome.com`)"
       - "traefik.http.routers.web.entrypoints=websecure"
       - "traefik.http.routers.web.tls.certresolver=myresolver"
     ports:

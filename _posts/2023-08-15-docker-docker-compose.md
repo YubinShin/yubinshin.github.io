@@ -16,9 +16,11 @@ Nest.js 와 PostgreSql 을 함께 사용하면서 병렬적으로 여러 프로�
 
 ### 기본서
 
+<div markdown="block" style="width: 30%;">
 ![Untitled](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791140700943.jpg)
+</div>
 
-유튜브 강의, 공식문서 등 여러 방법을 시도해보았지만 나는 역시 사전처럼 뚱뚱한 교재 한 권에서 계속 찾아보면서 배우는게 제일 적합했다.
+도커 관련 유튜브 강의, 공식문서 등 여러 방법을 시도해보았지만 역시 사전처럼 뚱뚱한 교과서에서 필요한 개념을 계속 찾아보면서 배우는게 제일 빠르더라.
 예제가 꼼꼼하게 되어있고, 초반 진입장벽이었던 어려운 개념들을 찾아가며 정독하니 점점 이해가 되었다.
 특히 멀티스테이징 빌드, volume 에 관한 설명이 프로젝트 중 문제와 마주쳤을때 큰 도움이 되었다.
 
@@ -28,6 +30,52 @@ Nest.js 와 PostgreSql 을 함께 사용하면서 병렬적으로 여러 프로�
 2. 포트포워딩도 동시에 진행하고 싶었다.
 
 그래서 라즈베리파이에서 실패했던 traefik을 재시도 해서 성공했다. 성공 이유는 좀 더 공부해서 찾아봐야 되겠지만, 일단 될때까지 해서 됐으니 기쁘다!
+
+<details markdown="block"><summary>docker-compose.yml 코드</summary>
+```yaml
+version: "3.8"
+services:
+  web: # 이 친구에 주의
+    image: shinyubin/fow-be
+    container_name: fow-be
+    restart: always
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+      - "traefik.enable=true"
+      - "traefik.http.routers.web.rule=Host(`api.yubinhome.com`)"
+      - "traefik.http.routers.web.entrypoints=websecure"
+      - "traefik.http.routers.web.tls.certresolver=myresolver"
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    command: sh -c "npx prisma migrate dev && npm run start:dev"
+    networks:
+      - freecodecamp # 네트워크를 맞춰야한다
+  traefik:
+    image: "traefik:v2.0"
+    command:
+      - "--api.insecure=false"
+      - "--providers.docker=true"
+      - "--entrypoints.web.address=:80" 
+      - "--entrypoints.websecure.address=:443"  
+      - "--certificatesresolvers.myresolver.acme.httpchallenge=true"
+      - "--certificatesresolvers.myresolver.acme.httpchallenge.entrypoint=web"#  도커컨테이너의 서비스명과 맞춰야한다
+      - "--certificatesresolvers.myresolver.acme.email=fogofseoul@gmail.com"
+      - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"  # acme.json 을 저장할 곳을 맞춰줘야한다
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "./letsencrypt:/letsencrypt"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    networks:
+      - freecodecamp # 네트워크를 맞춰야한다
+networks:
+  freecodecamp: # 네트워크를 맞춰야한다
+```
+</details>
 
 ### 운영체제 오류
 
@@ -47,17 +95,12 @@ $ docker buildx build --platform linux/amd64 -t shinyubin/fow-be:0.1 . --push
 
 자세한 내용은 다음 글로 첨부하겠다.
 
-<aside>
-💡 중요한 내용은 이렇게 콜아웃으로 강조하세요
-
-</aside>
-
 ## 📎 Related articles
 
-| 이슈명                                          | 링크                                                                |
-| ----------------------------------------------- | ------------------------------------------------------------------- |
-| 홈에서 Traefik의 장점이 무엇일까요?             | https://svrforum.com/svr/311870                                     |
-| Put Wildcard Certificates and SSL on EVERYTHING | https://technotim.live/posts/traefik-portainer-ssl/                 |
-| node.js argon2 crash Docker container           | https://techoverflow.net/2023/04/27/how-to-fix-nodejs-argon2-crash/ |
-| Prisma Migrate: Deploy Migration with Docker    | https://notiz.dev/blog/prisma-migrate-deploy-with-docker            |
-| exec 에러                                       | https://kimjingo.tistory.com/221                                    |
+| 이슈명                                          | 링크                                                                                                                                       |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 홈에서 Traefik의 장점이 무엇일까요?             | [https://svrforum.com/svr/311870 ](https://svrforum.com/svr/311870)                                                                        |
+| Put Wildcard Certificates and SSL on EVERYTHING | [https://technotim.live/posts/traefik-portainer-ssl/ ](https://technotim.live/posts/traefik-portainer-ssl/)                                |
+| node.js argon2 crash Docker container           | [https://techoverflow.net/2023/04/27/how-to-fix-nodejs-argon2-crash/](https://techoverflow.net/2023/04/27/how-to-fix-nodejs-argon2-crash/) |
+| Prisma Migrate: Deploy Migration with Docker    | [https://notiz.dev/blog/prisma-migrate-deploy-with-docker ](https://notiz.dev/blog/prisma-migrate-deploy-with-docker)                      |
+| Arm-AMD CPU 로 인한 exec format error 에러      | [https://kimjingo.tistory.com/221 ](https://kimjingo.tistory.com/221)                                                                      |

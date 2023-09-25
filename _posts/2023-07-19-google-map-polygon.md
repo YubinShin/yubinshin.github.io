@@ -8,6 +8,8 @@ tags: [google-map-api, react, kml]
 
 # [트러블슈팅]구글맵 폴리곤으로 서울만 보이게 하기(동균, 유빈) (1)
 
+![Untitled](https://file.notion.so/f/s/49ae3e4f-244b-43d2-ac4e-cafb2d4b68c6/Untitled.png?id=76ef7ba9-c712-44f1-8581-45c97190b637&table=block&spaceId=e7d754a1-76cb-4672-bdad-40763f61263e&expirationTimestamp=1695700800000&signature=NXZ_pbL1LO5YQXfKAoHGLjLI231i5QkvbndGJhV2bM0&downloadName=Untitled.png)
+
 [https://jsfiddle.net/dL5gaouy/13/](https://jsfiddle.net/dL5gaouy/13/)
 
 [https://jsfiddle.net/dL5gaouy/13/](https://jsfiddle.net/dL5gaouy/13/)

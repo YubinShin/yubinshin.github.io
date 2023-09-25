@@ -17,7 +17,7 @@ Nest.js 와 PostgreSql 을 함께 사용하면서 병렬적으로 여러 프로�
 ### 추천도서
 
 <div markdown="block" style="width: 30%;">
-![Untitled](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791140700943.jpg)
+![도커교과서](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791140700943.jpg)
 </div>
 
 도커 관련 유튜브 강의, 공식문서 등 여러 방법을 시도해보았지만 역시 사전처럼 뚱뚱한 교과서에서 필요한 개념을 계속 찾아보면서 배우는게 제일 빠르더라.

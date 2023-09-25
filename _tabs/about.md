@@ -10,16 +10,15 @@ order: 1
 
 ---
 
-- **Email** | shin.yubin18@gmail.com
+- **Email** | [shin.yubin18@gmail.com](shin.yubin18@gmail.com)
 - **Github** | [https://github.com/YubinShin](https://github.com/YubinShin)
-- **Mobile** | 010.2030.8968
 
 # 💽  Back-End Developer
 
 ---
 
 - 안녕하세요! **문제해결**을 좋아하는 개발자 신유빈입니다.
-- 리서치와 분석을 즐겨 좋은 서비스를 벤치마킹할 수 있는 시각을 가지고 있습니다.
+- 리서치와 분석을 즐겨 좋은 코드를 벤치마킹할 수 있는 시각을 가지고 있습니다.
 - 분석하고 질문하는 능력이 좋다는 평을 받습니다.
 - 원하는 바가 생기면 직접 만들어내는 것을 좋아합니다.
 - 여러 관점으로 관찰하여 전보다 편리하고 효율적인 방식을 구현해냅니다.
@@ -36,12 +35,15 @@ order: 1
 
 ### Back-End
 
-- Node.js, express, nest.js, mongoose
+- Node.js, express, nest.js, mongoose, prisma
 - Python, FastAPI
 
 ### DevOps
 
-- AWS - S3
+- Docker, Docker-compose
+- GitHub Actions(CI & CD)
+- Nginx, Traefik
+- AWS - S3, EC2
 - GCP - VM Instance
 
 ### SBC
@@ -54,6 +56,7 @@ order: 1
 
 ### DataBases
 
+- PostgreSQL
 - MongoDB
 - MySQL
 
@@ -76,11 +79,11 @@ order: 1
 
 💻**프론트엔드 깃허브저장소**
 
-https://github.com/fog-of-war/dev-fe
+[https://github.com/fog-of-war/dev-fe](https://github.com/fog-of-war/dev-fe)
 
 💽**백엔드 깃허브저장소**
 
-https://github.com/fog-of-war/dev-be
+[https://github.com/fog-of-war/dev-be](https://github.com/fog-of-war/dev-be)
 
 - 서울의 안개를 걷히게 하는 애플리케이션
 - 팀장 | FE 3, BE 1, PM1
@@ -114,11 +117,11 @@ https://github.com/fog-of-war/dev-be
 
 💻**프론트엔드 깃허브저장소**
 
-https://github.com/YubinShin/matissue-fe
+[https://github.com/YubinShin/matissue-fe](https://github.com/YubinShin/matissue-fe)
 
 💽**백엔드 깃허브저장소**
 
-https://github.com/YubinShin/matissue-be
+[https://github.com/YubinShin/matissue-be](https://github.com/YubinShin/matissue-be)
 
 - 모두를 위한 새로운 레시피 공유 공간
   - CRUD, 이미지서버, 회원인증 등 커뮤니티에서 필요한 대부분의 기능을 모두 구현
@@ -126,9 +129,13 @@ https://github.com/YubinShin/matissue-be
   - 게시글 api 전반, 이미지 서버, 배포 등
 - Python, FastAPI, MongoDB, AWS-S3, Redis, Next.js, Docker
 - 엘리스 sw 4기 2차 프로젝트 대상 수상
+
   - 발표자료
-    - https://docs.google.com/presentation/d/1wiFOhZt_RsPgrcCH8Lp7ikJ16OZYNMag/edit?usp=sharing&ouid=111283620129544417142&rtpof=true&sd=true
+    - [https://docs.google.com/presentation/d/1wiFOhZt_RsPgrcCH8Lp7ikJ16OZYNMag/edit?usp=sharing&ouid=111283620129544417142&rtpof=true&sd=true](https://docs.google.com/presentation/d/1wiFOhZt_RsPgrcCH8Lp7ikJ16OZYNMag/edit?usp=sharing&ouid=111283620129544417142&rtpof=true&sd=true)
   - 발표영상 (38:53)
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LDycLCeFuDg" title="이 팀에 경력자 있나요? 현직 개발자도 인정한 엘리스 SW엔지니어 트랙 4기 최종 발표회" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
     [https://youtu.be/LDycLCeFuDg?t=2332](https://youtu.be/LDycLCeFuDg?t=2332)
 
 > [[배포]맛이슈 배포 대작전](https://www.notion.so/04511f2db0fb4c1a81d293ce577de5bc?pvs=21)
@@ -151,11 +158,11 @@ https://github.com/YubinShin/matissue-be
 
 💻**프론트엔드 깃허브저장소**
 
-https://github.com/elicestudy/dev-FE
+[https://github.com/elicestudy/dev-FE](https://github.com/elicestudy/dev-FE)
 
 💽**백엔드 깃허브저장소**
 
-https://github.com/elicestudy/dev-BE
+[https://github.com/elicestudy/dev-BE](https://github.com/elicestudy/dev-BE)
 
 - 웹 크롤링 기반 단어 암기 서비스
   - 크롤링을 활용하여 단어 데이터를 가져오고, react 와 express 로 SPA 를 제작하였습니다
@@ -171,7 +178,7 @@ https://github.com/elicestudy/dev-BE
 
 [뿅뿅단어장](https://ppvoca.vercel.app/book/list)
 
-[](https://ppvoca.yubinhome.com/)
+[뿅뿅단어장 api 서버](https://ppvoca.yubinhome.com/)
 
 # 💼  Experience
 
@@ -208,7 +215,7 @@ https://github.com/elicestudy/dev-BE
 - 중앙동아리 새날을 여는 철학회 회장
 - 창업지원팀 I.S.S.A.C 선정
   - 중소기업벤처부 청년창업콘테스트 IR 진행
-    https://www.miricanvas.com/v/16jms4
+    [https://www.miricanvas.com/v/16jms4](https://www.miricanvas.com/v/16jms4)
 
 ### 엘리스 SW 4기
 

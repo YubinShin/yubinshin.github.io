@@ -20,7 +20,7 @@ SQL 문법에 익숙해질 겸 클라이언트 코드를 직접 작성해보는 
 ## 💻 사용
 
 Relation, Pk, Fk 등 들어만 보았던 개념들을 직접 부딪히며 사용해본 것이 굉장히 의미 있었다.
-부트캠프 기간 동안 MongoDB만 사용해봤던 입장으로서, 이번 프로젝트의 \*\*\*\*데이터베이스 설계 (스키마 작성)에서 어려웠던 점은 관계를 설정해주는 부분이었다.
+부트캠프 기간 동안 MongoDB만 사용해봤던 입장으로서, 이번 프로젝트의 **데이터베이스 설계 (스키마 작성)**에서 어려웠던 점은 관계를 설정해주는 부분이었다.
 
 ORM 사용이 꿀 발린 독일까 걱정했었는데 실제로 사용해보니 잘한 선택이었다.
 관계형 데이터베이스에 대한 이해를 완벽하기 하기 전이라 스키마를 짜며 실수할 때가 잦았다.
@@ -32,7 +32,7 @@ ORM 사용이 꿀 발린 독일까 걱정했었는데 실제로 사용해보니 
 ### 1:N 관계
 
 - 스키마 코드
-  [](https://github.com/fog-of-war/dev-be/blob/dev/prisma/schema.prisma)
+  [https://github.com/fog-of-war/dev-be/blob/dev/prisma/schema.prisma](https://github.com/fog-of-war/dev-be/blob/dev/prisma/schema.prisma)
 
   ```tsx
 
@@ -169,7 +169,7 @@ ORM 사용이 꿀 발린 독일까 걱정했었는데 실제로 사용해보니 
 
 ### Github actions 에서 cicd
 
-https://www.prisma.io/docs/guides/deployment/deploy-database-changes-with-prisma-migrate
+[https://www.prisma.io/docs/guides/deployment/deploy-database-changes-with-prisma-migrate](https://www.prisma.io/docs/guides/deployment/deploy-database-changes-with-prisma-migrate)
 
 ```yaml
 npx prisma migrate deploy
@@ -183,8 +183,8 @@ npx prisma migrate deploy
 
 ## 📎 Related articles
 
-| 이슈명                  | 링크                                                                                |
-| ----------------------- | ----------------------------------------------------------------------------------- |
-| PosgresSQL Course       | https://www.youtube.com/watch?v=XQ_6G0iCyMQ&list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS |
-| 60분 안에 Prisma 배우기 | https://www.youtube.com/watch?v=RebA5J-rlwg                                         |
-| Prisma 처음 시작하기    | https://www.daleseo.com/prisma/                                                     |
+| 이슈명                  | 링크                                                                                                                                                                       |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PosgresSQL Course       | [https://www.youtube.com/watch?v=XQ_6G0iCyMQ&list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS](https://www.youtube.com/watch?v=XQ_6G0iCyMQ&list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS) |
+| 60분 안에 Prisma 배우기 | [https://www.youtube.com/watch?v=RebA5J-rlwg](https://www.youtube.com/watch?v=RebA5J-rlwg)                                                                                 |
+| Prisma 처음 시작하기    | [https://www.daleseo.com/prisma] (https://www.daleseo.com/prisma/ )                                                                                                        |

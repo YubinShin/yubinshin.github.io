@@ -5,8 +5,6 @@ categories: [troubleshooting]
 tags: [gcp, cloud, deploy, ssh]
 ---
 
-# [트러블슈팅]VM에 ID,PW로 접속하려면 대작전
-
 ## 🤔 Problem
 
 뿅뿅단어장 팀원들의 작업물을 배포하면서 혼자서 vm 을 관리하는데에 한계를 느꼈다.

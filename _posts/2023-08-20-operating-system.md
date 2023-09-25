@@ -5,9 +5,7 @@ categories: [blog]
 tags: [os]
 ---
 
-## 🤔 목차
-
-## 🌱 본문
+![https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/6.png](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/6.png)
 
 ### 프로세서
 
@@ -19,7 +17,6 @@ tags: [os]
 
 ![https://cdn.dribbble.com/users/229527/screenshots/3127016/tunnelcpu.gif](https://cdn.dribbble.com/users/229527/screenshots/3127016/tunnelcpu.gif)
 
-<aside>
 💡 **x86**
 
 고성능 강점
@@ -27,10 +24,8 @@ tags: [os]
 \*\*\*\*인텔, AMD 에서 개발한다.
 
 주로 개인용 컴퓨터(PC)에서 사용되며, 대부분의 Windows 및 일부의 리눅스 운영체제가 이 아키텍처를 지원합니다.
+![https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/3.png](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/3.png)
 
-</aside>
-
-<aside>
 💡 **ARM**
 
 저전력 강점
@@ -39,9 +34,13 @@ tags: [os]
 
 \*\*\*\*애플 m1, 라즈베리파이 프로세서들이 arm 이다.
 
-</aside>
+![https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/1.gif](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/1.gif)
+
+![https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/2.jpg](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/2.jpg)
 
 ### 메인보드
+
+![https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/4.png](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/4.png)
 
 메인보드 = 마더보드 = 보드
 
@@ -50,6 +49,7 @@ tags: [os]
 **CPU** : 계산해야 되니까 데이터 달라고 램한테 명령함 🤖
 
 **Control Bus :** 데이터를 읽으라는 명령어를 보내는 통로
+
 **Address Bus** : 메모리 어느 주소를 읽을건지 보내는 통로
 
 **메모리(램)** : 담고 있던 데이터를 줌 💾
@@ -57,6 +57,8 @@ tags: [os]
 **Data Bus :** 메모리에서 데이터를 받아서 CPU 안에 담으러 가는 통로
 
 ### 메모리
+
+![https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/5.png](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/5.png)
 
 메모리 = 램 = RAM = **R**andom **A**ccess **M**emory = 주기억장치
 

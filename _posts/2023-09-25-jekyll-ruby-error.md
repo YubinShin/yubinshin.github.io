@@ -1,3 +1,10 @@
+---
+title: github 블로그와 jekyll
+date: 2023-08-20
+categories: [blog]
+tags: [jekyll, ruby]
+---
+
 ```
 Unfortunately, an unexpected error occurred, and Bundler cannot continue.
 

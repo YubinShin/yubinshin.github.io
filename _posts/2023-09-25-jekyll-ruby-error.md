@@ -50,3 +50,27 @@ https://jekyllrb.com/docs/installation/macos/
 https://frhyme.github.io/others/jekyll_serve_not_work/
 
 https://computer-science-student.tistory.com/388
+
+```zsh
+
+claire@Claireui-iMac YubinShin.github.io % jekyll serve
+/Users/claire/.gem/ruby/3.2.0/gems/bundler-2.4.19/lib/bundler/runtime.rb:304:in `check_for_activated_spec!': You have already activated rexml 3.2.5, but your Gemfile requires rexml 3.2.6. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+        from /Users/claire/.gem/ruby/3.2.0/gems/bundler-2.4.19/lib/bundler/runtime.rb:25:in `block in setup'
+        from /Users/claire/.gem/ruby/3.2.0/gems/bundler-2.4.19/lib/bundler/spec_set.rb:165:in `each'
+        from /Users/claire/.gem/ruby/3.2.0/gems/bundler-2.4.19/lib/bundler/spec_set.rb:165:in `each'
+        from /Users/claire/.gem/ruby/3.2.0/gems/bundler-2.4.19/lib/bundler/runtime.rb:24:in `map'
+        from /Users/claire/.gem/ruby/3.2.0/gems/bundler-2.4.19/lib/bundler/runtime.rb:24:in `setup'
+        from /Users/claire/.gem/ruby/3.2.0/gems/bundler-2.4.19/lib/bundler.rb:162:in `setup'
+        from /Users/claire/.gem/ruby/3.2.0/gems/jekyll-4.3.2/lib/jekyll/plugin_manager.rb:52:in `require_from_bundler'
+        from /Users/claire/.gem/ruby/3.2.0/gems/jekyll-4.3.2/exe/jekyll:11:in `<top (required)>'
+        from /Users/claire/.rbenv/versions/3.2.2/bin/jekyll:25:in `load'
+        from /Users/claire/.rbenv/versions/3.2.2/bin/jekyll:25:in `<main>'
+
+
+claire@Claireui-iMac YubinShin.github.io % bundle exec
+bundler: exec needs a command to run
+
+
+claire@Claireui-iMac YubinShin.github.io % bundle exec jekyll serve
+
+```

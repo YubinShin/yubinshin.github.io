@@ -14,7 +14,7 @@ Nest.js 와 PostgreSql 을 함께 사용하면서 병렬적으로 여러 프로�
 
 ## 🌱 Solution
 
-### 기본서
+### 추천도서
 
 <div markdown="block" style="width: 30%;">
 ![Untitled](https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791140700943.jpg)
@@ -30,6 +30,8 @@ Nest.js 와 PostgreSql 을 함께 사용하면서 병렬적으로 여러 프로�
 2. 포트포워딩도 동시에 진행하고 싶었다.
 
 그래서 라즈베리파이에서 실패했던 traefik을 재시도 해서 성공했다. 성공 이유는 좀 더 공부해서 찾아봐야 되겠지만, 일단 될때까지 해서 됐으니 기쁘다!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/liV3c9m_OX8" title="Put Wildcard Certificates and SSL on EVERYTHING - Traefik Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <details markdown="block"><summary>docker-compose.yml 코드</summary>
 ```yaml

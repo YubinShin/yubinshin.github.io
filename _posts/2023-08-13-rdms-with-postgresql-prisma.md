@@ -61,7 +61,7 @@ ORM 사용이 꿀 발린 독일까 걱정했었는데 실제로 사용해보니 
   ```
 
 - 서비스 코드
-  [](https://github.com/fog-of-war/dev-be/blob/dev/src/posts/posts.service.ts)
+  [https://github.com/fog-of-war/dev-be/blob/dev/src/posts/posts.service.ts](https://github.com/fog-of-war/dev-be/blob/dev/src/posts/posts.service.ts)
 
   ```tsx
 
@@ -177,9 +177,9 @@ npx prisma migrate deploy
 
 ## 🌱 강의
 
-[https://www.youtube.com/watch?v=XQ_6G0iCyMQ&list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS](https://www.youtube.com/watch?v=XQ_6G0iCyMQ&list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XQ_6G0iCyMQ?list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS" title="PostgreSQL: What is a Database | Course | 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[https://www.youtube.com/watch?v=RebA5J-rlwg](https://www.youtube.com/watch?v=RebA5J-rlwg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RebA5J-rlwg" title="Learn Prisma In 60 Minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## 📎 Related articles
 
@@ -187,4 +187,4 @@ npx prisma migrate deploy
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | PosgresSQL Course       | [https://www.youtube.com/watch?v=XQ_6G0iCyMQ&list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS](https://www.youtube.com/watch?v=XQ_6G0iCyMQ&list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS) |
 | 60분 안에 Prisma 배우기 | [https://www.youtube.com/watch?v=RebA5J-rlwg](https://www.youtube.com/watch?v=RebA5J-rlwg)                                                                                 |
-| Prisma 처음 시작하기    | [https://www.daleseo.com/prisma] (https://www.daleseo.com/prisma/ )                                                                                                        |
+| Prisma 처음 시작하기    | [https://www.daleseo.com/prisma](https://www.daleseo.com/prisma)                                                                                                           |

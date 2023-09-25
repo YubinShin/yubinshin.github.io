@@ -45,13 +45,13 @@ Context API 에 blob uri나 base64를 담아 보내다가 실패하는 중이라
 
 유튜브 영상과 gpt 에게 질문하여 페이지가 새로고침 될 때 Blob URI는 무효화되기 때문에 사용할 수 없게 된다는 걸 깨달았다.
 
-[https://www.youtube.com/watch?v=UgCCR-ZBP8w](https://www.youtube.com/watch?v=UgCCR-ZBP8w)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UgCCR-ZBP8w" title="What is a blob URI?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### 2차 시도 - 로컬스토리지에 Base64 를 담아 사용하기(실패)
 
 스택오버플로우를 탐험하면서 context API에 이미지를 담았다는 답변을 찾을 수 없었기에 나는 local storage 측으로 방향을 틀었다. 메가바이트 크기 정도의 이미지를 담으려면 context API의 용량이 부족한가 싶었기 때문이다.
 
-[https://www.youtube.com/watch?v=AUOzvFzdIk4](https://www.youtube.com/watch?v=AUOzvFzdIk4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AUOzvFzdIk4" title="Storing Objects with Local Storage in JavaScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ![https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-18-blob-base64-react/2.png](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-18-blob-base64-react/2.png){:width="50%"}
 

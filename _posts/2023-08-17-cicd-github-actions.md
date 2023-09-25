@@ -29,7 +29,7 @@ tags: [CI/CD, docker, github-actions]
 
 ### CI (Continuos Integration)
 
-[https://www.youtube.com/watch?v=JS07npwL3Ps](https://www.youtube.com/watch?v=JS07npwL3Ps)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JS07npwL3Ps" title="Continuous Deployment using GitHub Actions | Auto Deploy MERN Stack | AWS EC2 | CICD Pipeline" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 1. main.yml 작성
 

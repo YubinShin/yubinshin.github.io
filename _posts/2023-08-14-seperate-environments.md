@@ -15,6 +15,8 @@ tags: [.env, node.js, nest.js, package.json, dotenv]
 
 ## 🌱 Solution
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GHTA143_b-s" title="NestJs Course for Beginners - Create a REST API" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 1.  Dotenv 패키지를 설치한다.
 
     `npm install dotenv --save`

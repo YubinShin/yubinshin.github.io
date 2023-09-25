@@ -4,7 +4,7 @@ date: 2023-07-18
 categories: [blog]
 ---
 
-# 트러블 슈팅 제목
+## 트러블 슈팅 제목
 
 ## 🤔 Problem
 
@@ -18,14 +18,12 @@ categories: [blog]
 2. 가능한 일러스트 등을 추가하여 독자가 이해하기 편하게 작성하세요.
 3. 독자의 과부하를 방지하기 위해 최대 3~5단계로 작성하세요.
 
-<aside>
+<div style="background-color : rgb(241, 241, 239);  line-height: 5; vertical-align : middle; padding-left: 1rem;">
 💡 중요한 내용은 이렇게 콜아웃으로 강조하세요
-
-</aside>
+</div>
 
 ## 📎 Related articles
 
-| 이슈명             | 링크                                                          |
-| ------------------ | ------------------------------------------------------------- |
-| 트러블 슈팅 작성법 | https://www.notion.so/b1a08ee9e15d44c8bb8122962c7375b4?pvs=21 |
-|                    |                                                               |
+| 이슈명                        | 링크                                                                                                                                                                     |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| confluence 트러블 슈팅 템플릿 | [https://www.atlassian.com/ko/software/confluence/templates/troubleshooting-article](https://www.atlassian.com/ko/software/confluence/templates/troubleshooting-article) |

@@ -1,6 +1,6 @@
 ---
 title: 트러블슈팅 템플릿
-date: 2023-09-24
+date: 2023-07-18
 categories: [blog]
 ---
 

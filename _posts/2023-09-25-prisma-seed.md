@@ -1,6 +1,6 @@
 ---
 title: github 블로그와 jekyll
-date: 2023-08-20
+date: 2023-09-25
 categories: [blog]
 tags: [prisma, node.js]
 ---

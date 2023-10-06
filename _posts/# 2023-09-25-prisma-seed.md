@@ -1,5 +1,5 @@
 ---
-title: github 블로그와 jekyll
+title: prisma seed
 date: 2023-09-25
 categories: [blog]
 tags: [prisma, node.js]

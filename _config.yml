@@ -83,7 +83,7 @@ avatar: "https://yubinshin.s3.ap-northeast-2.amazonaws.com/cat.jpeg"
 toc: true
 
 comments:
-  active: disqus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: utterances # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: yubinshin # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname

@@ -10,8 +10,8 @@ order: 1
 
 ---
 
-- **Email** | [shin.yubin18@gmail.com](shin.yubin18@gmail.com)
-- **Github** | [https://github.com/YubinShin](https://github.com/YubinShin)
+**Email** | shin.yubin18@gmail.com
+**Github** | [https://github.com/YubinShin](https://github.com/YubinShin)
 
 # 💽  Back-End Developer
 
@@ -83,29 +83,29 @@ order: 1
 
 | 분류                          | 상세                                                                         |
 | ----------------------------- | ---------------------------------------------------------------------------- |
-| 전장의 안개                   | 구글 map api 를 사용하여 서울의 안개를 걷히게 하는 애플리케이션              |
-| 팀 구성                       | FE 3, BE 1, PM1                                                              |
-| 기술스택                      | Node.js, Nest.js, postgreSQL, React, Docker, Redis, websocket, Traefik       |
+| **전장의 안개**               | 구글 map api 를 사용하여 서울의 안개를 걷히게 하는 애플리케이션              |
+| **팀 구성**                   | FE 3, BE 1, PM1                                                              |
+| **기술스택**                  | Node.js, Nest.js, postgreSQL, React, Docker, Redis, websocket, Traefik       |
 | 💻**프론트엔드 깃허브저장소** | [https://github.com/fog-of-war/dev-fe](https://github.com/fog-of-war/dev-fe) |
 | 💽**백엔드 깃허브저장소**     | [https://github.com/fog-of-war/dev-be](https://github.com/fog-of-war/dev-be) |
 
-<details markdown="block"><summary> 기술 문서</summary></summary>
+<details markdown="block"><summary> 기술 문서</summary>
 
-> [[트러블슈팅]디스코드로 깃허브 알림봇 만들기 대작전](https://www.notion.so/398e06bb939b4a9ab5c2ba5ca2ed67fb?pvs=21)
+> [[트러블슈팅]디스코드로 깃허브 알림봇 만들기 대작전](https://yubinshin.github.io/posts/github-bot-with-discord/)
 >
-> [[트러블슈팅]구글맵 폴리곤으로 서울만 보이게 하기(동균, 유빈) (1)](https://www.notion.so/1-f43cd3fa4ef84634bdafdb70415c3217?pvs=21)
+> [[트러블슈팅]구글맵 폴리곤으로 서울만 보이게 하기(동균, 유빈) (1)](https://yubinshin.github.io/posts/google-map-polygon/)
 >
-> [[블로그] Postgresql 과 prisma 로 배우는 관계형 데이터 베이스](https://www.notion.so/Postgresql-prisma-fdf64b123b3741e8bcf81eace4056d12?pvs=21)
+> [[블로그] Postgresql 과 prisma 로 배우는 관계형 데이터 베이스](https://yubinshin.github.io/posts/rdms-with-postgresql-prisma/)
 >
-> [[트러블슈팅] Docker & Docker-compose](https://www.notion.so/Docker-Docker-compose-8814d8d777334078b3fa3a4f402e93f9?pvs=21)
+> [[트러블슈팅] Docker & Docker-compose](https://yubinshin.github.io/posts/docker-docker-compose/)
 >
-> [[트러블슈팅]깃허브 액션으로 CI&CD대작전](https://www.notion.so/CI-CD-82b137db01b242d7b018e64bed84a1c3?pvs=21)
+> [[트러블슈팅]깃허브 액션으로 CI&CD대작전](https://yubinshin.github.io/posts/cicd-github-actions/)
 >
-> [[트러블슈팅]개발, 프로덕션, 테스트 환경 분리 대작전(Package.json 과 env)](https://www.notion.so/Package-json-env-7cff6dc1ea4840d7940e4d28974aee6b?pvs=21)
+> [[트러블슈팅]개발, 프로덕션, 테스트 환경 분리 대작전(Package.json 과 env)](https://yubinshin.github.io/posts/seperate-environments/)
 >
-> [[트러블슈팅]이미지를 다른 페이지로 넘겨주기 대작전(blob 과 base64)](https://www.notion.so/blob-base64-da3a68ef565f483db9e50bcce2ef9557?pvs=21)
+> [[트러블슈팅]이미지를 다른 페이지로 넘겨주기 대작전(blob 과 base64)](https://yubinshin.github.io/posts/blob-base64-react/)
 >
-> [[도서] 혼자 공부하는 컴퓨터구조 & 운영체제](https://www.notion.so/81ce84cd0c0540fd892e578f381cd02b?pvs=21)
+> [[도서] 혼자 공부하는 컴퓨터구조 & 운영체제](https://yubinshin.github.io/posts/operating-system/)
 
 </details>
 
@@ -119,11 +119,11 @@ order: 1
 
 | 분류                          | 상세                                                                                                                                                                                                                                                                               |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 맛이슈                        | 모두를 위한 새로운 레시피 공유 공간                                                                                                                                                                                                                                                |
-| 팀 구성                       | **팀장 및 백엔드 담당** (FE 5, BE 2)                                                                                                                                                                                                                                               |
-| 담당                          | CRUD, 이미지서버, 회원인증 등 커뮤니티에서 필요한 대부분의 기능을 모두 구현, 게시글 api 전반, 이미지 서버, 배포 등                                                                                                                                                                 |
-| 기술스택                      | Python, FastAPI, MongoDB, AWS-S3, Redis, Next.js, Docker, Traefik                                                                                                                                                                                                                  |
-| 특이사항                      | 엘리스 sw 4기 2차 프로젝트 대상 수상                                                                                                                                                                                                                                               |
+| **맛이슈**                    | 모두를 위한 새로운 레시피 공유 공간                                                                                                                                                                                                                                                |
+| **팀 구성**                   | **팀장 및 백엔드 담당** (FE 5, BE 2)                                                                                                                                                                                                                                               |
+| **수상**                      | CRUD, 이미지서버, 회원인증 등 커뮤니티에서 필요한 대부분의 기능을 모두 구현, 게시글 api 전반, 이미지 서버, 배포 등                                                                                                                                                                 |
+| **기술스택**                  | Python, FastAPI, MongoDB, AWS-S3, Redis, Next.js, Docker, Traefik                                                                                                                                                                                                                  |
+| **특이사항**                  | 엘리스 sw 4기 2차 프로젝트 대상 수상                                                                                                                                                                                                                                               |
 | 💻**프론트엔드 깃허브저장소** | [https://github.com/YubinShin/matissue-fe](https://github.com/YubinShin/matissue-fe)                                                                                                                                                                                               |
 | 💽**백엔드 깃허브저장소**     | [https://github.com/YubinShin/matissue-be](https://github.com/YubinShin/matissue-be)                                                                                                                                                                                               |
 | 발표자료                      | [https://docs.google.com/presentation/d/1wiFOhZt_RsPgrcCH8Lp7ikJ16OZYNMag/edit?usp=sharing&ouid=111283620129544417142&rtpof=true&sd=true](https://docs.google.com/presentation/d/1wiFOhZt_RsPgrcCH8Lp7ikJ16OZYNMag/edit?usp=sharing&ouid=111283620129544417142&rtpof=true&sd=true) |
@@ -131,7 +131,7 @@ order: 1
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LDycLCeFuDg" title="이 팀에 경력자 있나요? 현직 개발자도 인정한 엘리스 SW엔지니어 트랙 4기 최종 발표회" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<details markdown="block"><summary> 기술 문서</summary></summary>
+<details markdown="block"><summary> 기술 문서</summary>
 
 > [[배포]맛이슈 배포 대작전](https://www.notion.so/04511f2db0fb4c1a81d293ce577de5bc?pvs=21)
 >
@@ -139,9 +139,9 @@ order: 1
 >
 > [[트러블슈팅]AWS S3 이미지 서버 사용하기 대작전](https://www.notion.so/AWS-S3-45b8a4f1e1b8492ba22fbcc68fe324b3?pvs=21)
 >
-> [[트러블슈팅]AWS S3, 몽고 디비 마이그레이션 대작전](https://www.notion.so/AWS-S3-a7e5ff79ddff4c87a81365489946a3ac?pvs=21)
+> [[트러블슈팅]AWS S3, 몽고 디비 마이그레이션 대작전](https://yubinshin.github.io/posts/migration-aws-mongo/)
 >
-> [[트러블슈팅]맛이슈 속도 개선 대작전](https://www.notion.so/8429d2c4babd41b08a9601d298eaee86?pvs=21)
+> [[트러블슈팅]맛이슈 속도 개선 대작전](https://yubinshin.github.io/posts/speed-improvement-matissue/)
 
 </details>
 
@@ -155,16 +155,16 @@ order: 1
 
 | 분류                          | 상세                                                                                                                      |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| 뿅뿅단어장                    | 웹 크롤링 기반 단어 암기 서비스 <br/> 크롤링을 활용하여 단어 데이터를 가져오고, react 와 express 로 SPA 를 제작하였습니다 |
-| 팀 구성                       | 풀스택 7                                                                                                                  |
-| 담당                          | BE - 단어 및 단어장 api 전반, 배포 등 담당 <br/> FE - 캘린더 컴포넌트 담당                                                |
-| 기술스택                      | Node.js, Express, MongoDB, Cheerio, React.js, Recoil                                                                      |
+| **뿅뿅단어장**                | 웹 크롤링 기반 단어 암기 서비스 <br/> 크롤링을 활용하여 단어 데이터를 가져오고, react 와 express 로 SPA 를 제작하였습니다 |
+| **팀 구성**                   | 풀스택 7                                                                                                                  |
+| **담당**                      | BE - 단어 및 단어장 api 전반, 배포 등 담당 <br/> FE - 캘린더 컴포넌트 담당                                                |
+| **기술스택**                  | Node.js, Express, MongoDB, Cheerio, React.js, Recoil                                                                      |
 | 💻**프론트엔드 깃허브저장소** | [https://github.com/elicestudy/dev-FE](https://github.com/elicestudy/dev-FE)                                              |
 | 💽**백엔드 깃허브저장소**     | [https://github.com/elicestudy/dev-BE](https://github.com/elicestudy/dev-BE)                                              |
 
-<details markdown="block"><summary> 기술 문서</summary></summary>
+<details markdown="block"><summary> 기술 문서</summary>
 
-> [[트러블슈팅]VM에 ID,PW로 접속하려면 대작전](https://www.notion.so/VM-ID-PW-143213623ac943f7bf40d859abefe8f5?pvs=21)
+> [[트러블슈팅]VM에 ID,PW로 접속하려면 대작전](https://yubinshin.github.io/posts/ssh-with-vm/)
 >
 > [[배포]우당탕탕 GCP VM 개설기](https://www.notion.so/GCP-VM-73cb2cc466d3489ab6b4905dbdef62a5?pvs=21)
 

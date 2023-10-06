@@ -698,7 +698,6 @@ $btn-mb: 0.5rem;
 
 #sidebar {
   @include pl-pr(0);
-
   position: fixed;
   top: 0;
   left: 0;
@@ -706,7 +705,7 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: var(--sidebar-bg);
+  background: black;
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for Chrome, Safari and Opera */
@@ -768,6 +767,7 @@ $btn-mb: 0.5rem;
       @extend %sidebar-link-hover;
 
       color: var(--site-title-color);
+      color: white;
     }
   }
 
@@ -793,13 +793,14 @@ $btn-mb: 0.5rem;
 
       a.nav-link {
         @include pt-pb(0.6rem);
-
+        color: rgba(255, 255, 255, 0.6);
         display: flex;
         align-items: center;
         border-radius: 0.75rem;
         font-weight: 600;
 
         &:hover {
+          color: var(--sidebar-active-color);
           background-color: var(--sidebar-hover-bg);
         }
 

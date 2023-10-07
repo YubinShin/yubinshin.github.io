@@ -86,8 +86,10 @@ order: 1
 | **전장의 안개**               | 구글 map api 를 사용하여 서울의 안개를 걷히게 하는 애플리케이션              |
 | **팀 구성**                   | FE 3, BE 1, PM1                                                              |
 | **기술스택**                  | Node.js, Nest.js, postgreSQL, React, Docker, Redis, websocket, Traefik       |
-| 💻**프론트엔드 깃허브저장소** | [https://github.com/fog-of-war/dev-fe](https://github.com/fog-of-war/dev-fe) |
-| 💽**백엔드 깃허브저장소**     | [https://github.com/fog-of-war/dev-be](https://github.com/fog-of-war/dev-be) |
+| **프론트엔드 깃허브저장소** | [https://github.com/fog-of-war/dev-fe](https://github.com/fog-of-war/dev-fe) |
+| **백엔드 깃허브저장소**     | [https://github.com/fog-of-war/dev-be](https://github.com/fog-of-war/dev-be) |
+
+<br/>
 
 <details markdown="block"><summary> 기술 문서</summary>
 
@@ -109,6 +111,10 @@ order: 1
 
 </details>
 
+<br/>
+
+---
+
 ## **맛이슈**
 
 2023.05.29 ~ 2023.06.23
@@ -119,17 +125,17 @@ order: 1
 
 | 분류                          | 상세                                                                                                                                                                                                                                                                               |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **맛이슈**                    | 모두를 위한 새로운 레시피 공유 공간                                                                                                                                                                                                                                                |
+| **맛이슈**                    | 레시피 공유 커뮤니티에서 필요한 기능을 모두 구현 <br/> ( CRUD, 이미지서버, 회원인증 등 )                                                                                                                                                                              |
 | **팀 구성**                   | **팀장 및 백엔드 담당** (FE 5, BE 2)                                                                                                                                                                                                                                               |
-| **수상**                      | CRUD, 이미지서버, 회원인증 등 커뮤니티에서 필요한 대부분의 기능을 모두 구현, 게시글 api 전반, 이미지 서버, 배포 등                                                                                                                                                                 |
+|         **역할**              | 게시글 api 전반, 이미지 서버, 배포 등                                                                                                                                                                 |
 | **기술스택**                  | Python, FastAPI, MongoDB, AWS-S3, Redis, Next.js, Docker, Traefik                                                                                                                                                                                                                  |
-| **특이사항**                  | 엘리스 sw 4기 2차 프로젝트 대상 수상                                                                                                                                                                                                                                               |
-| 💻**프론트엔드 깃허브저장소** | [https://github.com/YubinShin/matissue-fe](https://github.com/YubinShin/matissue-fe)                                                                                                                                                                                               |
-| 💽**백엔드 깃허브저장소**     | [https://github.com/YubinShin/matissue-be](https://github.com/YubinShin/matissue-be)                                                                                                                                                                                               |
-| 발표자료                      | [https://docs.google.com/presentation/d/1wiFOhZt_RsPgrcCH8Lp7ikJ16OZYNMag/edit?usp=sharing&ouid=111283620129544417142&rtpof=true&sd=true](https://docs.google.com/presentation/d/1wiFOhZt_RsPgrcCH8Lp7ikJ16OZYNMag/edit?usp=sharing&ouid=111283620129544417142&rtpof=true&sd=true) |
-| 발표영상                      | [https://youtu.be/LDycLCeFuDg?t=2332](https://youtu.be/LDycLCeFuDg?t=2332)                                                                                                                                                                                                         |
+| **수상**                       | 엘리스 sw 4기 2차 프로젝트 대상 수상                                                                                                                                                                                                                                               |
+| **프론트엔드 깃허브저장소** | [https://github.com/YubinShin/matissue-fe](https://github.com/YubinShin/matissue-fe)                                                                                                                                                                                               |
+| **백엔드 깃허브저장소**     | [https://github.com/YubinShin/matissue-be](https://github.com/YubinShin/matissue-be)                                                                                                                                                                                               |
+| **발표자료**                      | [구글드라이브 PDF](https://docs.google.com/presentation/d/1wiFOhZt_RsPgrcCH8Lp7ikJ16OZYNMag/edit?usp=sharing&ouid=111283620129544417142&rtpof=true&sd=true) |
+| **발표영상**                    | [https://youtu.be/LDycLCeFuDg?t=2332](https://youtu.be/LDycLCeFuDg?t=2332)                                                                                                                                                                                                         |
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LDycLCeFuDg" title="이 팀에 경력자 있나요? 현직 개발자도 인정한 엘리스 SW엔지니어 트랙 4기 최종 발표회" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br/>
 
 <details markdown="block"><summary> 기술 문서</summary>
 
@@ -145,6 +151,13 @@ order: 1
 
 </details>
 
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LDycLCeFuDg" title="이 팀에 경력자 있나요? 현직 개발자도 인정한 엘리스 SW엔지니어 트랙 4기 최종 발표회" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br/>
+
+---
+
 ## **뿅뿅단어장**
 
 2023.05.05 ~ 2023.05.25
@@ -155,12 +168,14 @@ order: 1
 
 | 분류                          | 상세                                                                                                                      |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **뿅뿅단어장**                | 웹 크롤링 기반 단어 암기 서비스 <br/> 크롤링을 활용하여 단어 데이터를 가져오고, react 와 express 로 SPA 를 제작하였습니다 |
+| **뿅뿅단어장**                | 웹 크롤링 기반 단어 암기 SPA |
 | **팀 구성**                   | 풀스택 7                                                                                                                  |
 | **담당**                      | BE - 단어 및 단어장 api 전반, 배포 등 담당 <br/> FE - 캘린더 컴포넌트 담당                                                |
 | **기술스택**                  | Node.js, Express, MongoDB, Cheerio, React.js, Recoil                                                                      |
 | 💻**프론트엔드 깃허브저장소** | [https://github.com/elicestudy/dev-FE](https://github.com/elicestudy/dev-FE)                                              |
 | 💽**백엔드 깃허브저장소**     | [https://github.com/elicestudy/dev-BE](https://github.com/elicestudy/dev-BE)                                              |
+
+<br/>
 
 <details markdown="block"><summary> 기술 문서</summary>
 
@@ -169,6 +184,10 @@ order: 1
 > [[배포]우당탕탕 GCP VM 개설기](https://www.notion.so/GCP-VM-73cb2cc466d3489ab6b4905dbdef62a5?pvs=21)
 
 </details>
+
+<br/>
+
+<br/>
 
 # 💼  Experience
 

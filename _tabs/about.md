@@ -141,13 +141,14 @@ order: 1
 
 > [[배포]맛이슈 배포 대작전](https://www.notion.so/04511f2db0fb4c1a81d293ce577de5bc?pvs=21)
 >
-> [[트러블슈팅]통합검색 만들기 대작전 (작성중)](https://www.notion.so/37860b35e01c4cfcb4877af09c5bb0c2?pvs=21)
+> [[트러블슈팅]Mongodb atlas로 통합검색 만들기 대작전](https://yubinshin.github.io/posts/mongo-db-search/)
 >
 > [[트러블슈팅]AWS S3 이미지 서버 사용하기 대작전](https://www.notion.so/AWS-S3-45b8a4f1e1b8492ba22fbcc68fe324b3?pvs=21)
 >
 > [[트러블슈팅]AWS S3, 몽고 디비 마이그레이션 대작전](https://yubinshin.github.io/posts/migration-aws-mongo/)
 >
 > [[트러블슈팅]맛이슈 속도 개선 대작전](https://yubinshin.github.io/posts/speed-improvement-matissue/)
+>
 
 </details>
 

@@ -6,7 +6,7 @@ layout: post
 tags: [google-map-api, react, kml, polygon]
 ---
 
-![Untitled](https://file.notion.so/f/s/49ae3e4f-244b-43d2-ac4e-cafb2d4b68c6/Untitled.png?id=76ef7ba9-c712-44f1-8581-45c97190b637&table=block&spaceId=e7d754a1-76cb-4672-bdad-40763f61263e&expirationTimestamp=1695700800000&signature=NXZ_pbL1LO5YQXfKAoHGLjLI231i5QkvbndGJhV2bM0&downloadName=Untitled.png)
+![seoul](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-07-19-google-map-polygon/seoul.png)
 
 <iframe width="100%" height="400" src="//jsfiddle.net/dL5gaouy/13/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -37,7 +37,7 @@ tags: [google-map-api, react, kml, polygon]
 GADM 이란 사이트에서 세계의 GeoJSON 과 kml 을 받을 수 있다.
 
 <div markdown="block" style="width: 80%;">
-![https://file.notion.so/f/f/e7d754a1-76cb-4672-bdad-40763f61263e/d96fcf92-8942-472b-aaaf-983ba2c20972/image1.png?id=249ae498-a109-4a12-abb3-414561287be6&table=block&spaceId=e7d754a1-76cb-4672-bdad-40763f61263e&expirationTimestamp=1695722400000&signature=A-I6yrkXk758_Vm0FJuUuiOPKgFtVW-PxQ8xxgODCI8&downloadName=image1.png](https://file.notion.so/f/f/e7d754a1-76cb-4672-bdad-40763f61263e/d96fcf92-8942-472b-aaaf-983ba2c20972/image1.png?id=249ae498-a109-4a12-abb3-414561287be6&table=block&spaceId=e7d754a1-76cb-4672-bdad-40763f61263e&expirationTimestamp=1695722400000&signature=A-I6yrkXk758_Vm0FJuUuiOPKgFtVW-PxQ8xxgODCI8&downloadName=image1.png)
+![https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-07-19-google-map-polygon/gadm.png](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-07-19-google-map-polygon/gadm.png)
 </div>
 
 level 에 따라서 데이터의 단위가 바뀐다.

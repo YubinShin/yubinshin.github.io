@@ -3,7 +3,7 @@ title: 맛이슈 속도 개선 대작전
 date: 2023-06-21
 categories: [troubleshooting]
 layout: post
-tags: [fastAPI, improvement, mongoDB, redis]
+tags: [fastapi, improvement, mongodb, redis]
 ---
 
 ## 🤔 Problem

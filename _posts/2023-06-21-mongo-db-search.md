@@ -119,6 +119,6 @@ async def search_recipes_with_comments(self, value: str, skip: int = 0, limit: i
 
 ### 📎 Related articles
 
-| 이슈명                             | 링크   |
-| ---------------------------------- | ------------------------------ |
-| 검색기능 만들기 3 : 네이버같은 검색기능 만들려면 (Search index)| [https://codingapple.com/course/node-express-mongodb-server/](https://codingapple.com/course/node-express-mongodb-server/) |
+| 이슈명                                                          | 링크                                                                                                                       |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| 검색기능 만들기 3 : 네이버같은 검색기능 만들려면 (Search index) | [https://codingapple.com/course/node-express-mongodb-server/](https://codingapple.com/course/node-express-mongodb-server/) |

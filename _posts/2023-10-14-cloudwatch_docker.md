@@ -4,6 +4,14 @@ date: 2023-10-14
 categories: [blog]
 tags: [logging, cloudwatch, aws, ec2]
 ---
+## 🤔 Problem
+
+ec2 에서 실행중인 인스턴스의 로그를 지켜보고 싶었으나 docker compose logs -f 로는 부족함을 느꼈다. 
+새로 컨테이너를 올려도 계속해서 이전 로그를 보고 싶기도 해서 방법을 찾아보았다.
+
+데이터독도 로고가 귀여워서 끌렸지만 접근성이 더 좋은 Watch Tower 를 먼저 사용해보기로 했다.
+
+## 🌱 Solution
 
 ### 1. IAM 에서 역할만들기
 

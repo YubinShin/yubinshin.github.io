@@ -1,7 +1,7 @@
 ---
 title: AWS EC2 & CloudWatch & Docker-compose 로 로그 기록하기
 date: 2023-10-14
-categories: [blog]
+categories: [troubleshooting]
 tags: [logging, cloudwatch, aws, ec2]
 ---
 ## 🤔 Problem

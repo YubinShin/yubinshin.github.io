@@ -403,3 +403,240 @@ Q : 래퍼클래스가 왜 필요할까?<br/>
 | double           | Double         |
 | char             | Character      |
 | boolean          | Boolean        |
+
+
+
+###  래퍼 클래스를 만드는 두 가지 방법
+
+1. 생성자로 만들기
+  new 키워드를 사용해 만들 수 있습니다.
+  java9 부터 deprecated 됨.
+
+2. valueOf 메서드로 만들기
+  각각의 래퍼 클래스는 모두 valueOf 라는 정적 메소드를 가지고 있습니다.
+
+```java
+    Integer useNew1 = new Integer(1);
+    Integer useNew2 = new Integer(1);
+
+    Integer useValueOf1 = Integer.valueOf(1);
+    Integer useValueOf2 = Integer.valueOf(1);
+```
+
+모든 래퍼 클래스는 불변성을 가집니다. (String 클랫 처럼)
+
+
+래퍼클래스로 만들어지는 변수들은 참조변수입니다.
+
+그런데 참조 변수에 대해 `==`는 **값**을 비교하지 않았죠.
+
+**값이 메모리 어디에 저장**되었는지 비교했어요.
+
+valueOf 를 사용해서 변수에 할당하면 Heap 안에 존재하는 기존의 객체를 다시 사용합니다.
+
+위의 경우 valueOf() 메서드를 사용하면 많은 경우 캐시된(-128부터 127까지의 정수) 객체를 반환하여 메모리를 절약할 수 있습니다.
+
+따라서 성능 및 메모리 관리를 고려할 때, 주로 `Integer.valueOf()` 메서드를 사용하는 것이 좋습니다.
+
+> 래퍼 클래스는 기본 데이터 유형을 객체로 래핑하기 위해 사용되며, 이 객체들은 힙 메모리에 저장됩니다. <br/>
+> 따라서 래퍼 클래스 타입의 변수는 해당 객체를 가리키는 참조 변수입니다. 
+
+
+### 래퍼클래스 오토박싱
+
+```java
+    Integer useValueOf = Integer.valueOf(1);
+    Integer useAutoBoxing = 1;
+```
+
+아래 변수도 valueOf 를 사용해서 만든건데 너무 길어서 자바 백그라운드에서 오토박싱 해줄게 하는거다. 
+
+그래서 `==` 으로 비교해보면 true 가 나온다.
+
+```sh
+    jshell>     Integer useValueOf = Integer.valueOf(1);
+       ...>     Integer useAutoBoxing = 1;
+    useValueOf ==> 1
+    useAutoBoxing ==> 1
+
+    jshell> useValueOf == useAutoBoxing;
+    $3 ==> true
+```
+
+### 래퍼클래스에 속한 상수들
+
+```java
+    Integer.MAX_VALUE;
+    Integer.MIN_VALUE;
+
+    // bit 단위로 나온다.
+    Integer.SIZE;
+
+    // byte 단위로 나온다.
+    Integer.BYTE;
+```
+
+## Date 타입
+
+자바 Date 가 성능이 구려서 자바8 버전 부터 Joda time framework 에서 가져와 구현했다.
+
+```
+LocalDate // 날짜 값을 가진다. Java.time 이라는 패키지 안에 속한다.
+
+LocalTime // 시간 값을 가진다
+
+LocalDateTime // 날짜 + 시간 값을 가진다.
+
+```
+
+```sh
+    jshell> /imports
+    |    import java.io.*
+    |    import java.math.*
+    |    import java.net.*
+    |    import java.nio.file.*
+    |    import java.util.*
+    |    import java.util.concurrent.*
+    |    import java.util.function.*
+    |    import java.util.prefs.*
+    |    import java.util.regex.*
+    |    import java.util.stream.*
+
+    jshell> import java.time.LocalDate;
+    jshell> import java.time.LocalDateTime;
+    jshell> import java.time.LocalTime;
+
+    jshell> LocalDate now = LocalDate.now();
+    now ==> 2023-11-02
+
+    jshell> LocalDateTime now = LocalDateTime.now();
+    now ==> 2023-11-02T11:26:28.417202
+
+    jshell> LocalTime now = LocalTime.now();
+    now ==> 11:26:37.098177
+```
+
+```sh
+jshell> import java.time.*
+
+jshell> LocalDate today = LocalDate.now();
+today ==> 2023-11-02
+
+jshell> today.getYear()
+$3 ==> 2023
+
+jshell> today.getDayOfWeek()
+$4 ==> THURSDAY
+
+jshell> today.getDayOfMonth()
+$5 ==> 2
+
+jshell> today.getDayOfYear()
+$6 ==> 306
+
+
+jshell> today.getMonth()
+$7 ==> NOVEMBER
+
+jshell> today.getMonthValue()
+$8 ==> 11
+
+jshell> today.isLeapYear()
+$9 ==> false
+
+jshell> today.lengthOfYear()
+$10 ==> 365
+
+jshell> today.lengthOfMonth()
+$11 ==> 30
+
+jshell> today.plusDays(100)
+$12 ==> 2024-02-10
+
+jshell> today.plusMonths(100)
+$13 ==> 2032-03-02
+
+jshell> today.plusYears(100)
+$14 ==> 2123-11-02
+
+jshell> today.minusYears(100)
+$15 ==> 1923-11-02
+```
+
+중요한 것은 우리는 plus, minus 를 한다고 해서 today 변수의 값이 변하지는 않는 다는 겁니다.
+
+또 하나의 불변성 클래스였습니다.
+
+```sh
+jshell> import java.time.*
+
+jshell> LocalDateTime now = LocalDateTime.now();
+now ==> 2023-11-02T11:47:14.114890
+
+jshell> now.plus
+plus(          plusDays(      plusHours(     plusMinutes(   plusMonths(    
+plusNanos(     plusSeconds(   plusWeeks(     plusYears(   
+
+jshell> now.get
+get(              getChronology()   getClass()        getDayOfMonth()   
+getDayOfWeek()    getDayOfYear()    getHour()         getLong(          
+getMinute()       getMonth()        getMonthValue()   getNano()         
+getSecond()       getYear()      
+
+```
+
+
+Modification
+
+```sh
+jshell> LocalDate yesterday = LocalDate.of(2023,11,02)
+yesterday ==> 2023-11-02
+
+jshell> LocalDate today = LocalDate.now();
+today ==> 2023-11-02
+
+jshell> today.withYear(2016);
+$5 ==> 2016-11-02
+
+jshell> today.withDayOfMonth(20);
+$6 ==> 2023-11-20
+
+jshell> today.withDayOfMonth(20);
+$6 ==> 2023-11-20
+
+jshell> today.withMonth(3);
+$7 ==> 2023-03-02
+
+jshell> today.withDayOfYear(3);
+$8 ==> 2023-01-03
+```
+
+LocalDate,LocalDateTime, LocalTime 모두 불변한 자료형입니다. 
+지금 배우는 모든 modification 메서드들은 새로운 객체로 리턴하는 메서드들입니다.
+
+
+
+Comparison
+
+```sh
+jshell> import java.time.*
+
+jshell> LocalDate yesterday = LocalDate.of(2023,11,01)
+yesterday ==> 2023-11-01
+
+jshell> LocalDate today = LocalDate.now()
+today ==> 2023-11-02
+
+jshell> today.isBefore(yesterday)
+$4 ==> false
+
+jshell> today.isAfter(yesterday)
+$5 ==> true
+```
+
+Incorrect answer. Please try again.
+Java의 참조 변수는 객체의 메모리 위치를 저장하는 데 사용되며, 이를 통해 객체의 속성 및 메서드에 액세스할 수 있습니다.
+
+
+
+StringBuffer는 동기화, 즉 스레드 안전하므로 두 개의 스레드가 동시에 액세스할 수 없도록 보장합니다. 반면 StringBuilder는 비동기화, 즉 스레드 안전하지 않습니다. 즉, 두 개 이상의 스레드가 동시에 액세스할 수 있습니다.

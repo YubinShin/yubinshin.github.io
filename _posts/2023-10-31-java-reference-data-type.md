@@ -171,7 +171,7 @@ Stack 의 value 에는 실제 객체가 저장된 메모리의 경로(HEAP) 이 
 
 다른 모든 객체는, 생성자를 사용해야 인스턴스를 만들 수 지만, String 은 그냥 리터럴로 생성 가능.
 
-```
+```java
 // 다른 참조 자료형들은 생성자를 사용해야 함
 BigDecimal bd = new BigDecimal(1.0); 
 

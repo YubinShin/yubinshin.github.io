@@ -1,8 +1,8 @@
 ---
-title: 도커교과서 - 도커의 기본적인 사용법
+title: 도커교과서 도커의 기본적인 사용법
 date: 2023-10-06
 categories: [blog]
-tags: [docker, docker-compose, container]
+tags: [docker, container]
 ---
 
 ## 📦 컨테이너란 무엇인가?

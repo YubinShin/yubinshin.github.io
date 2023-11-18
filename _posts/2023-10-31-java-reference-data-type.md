@@ -1,7 +1,7 @@
 ---
 title: Section 16 자바 프로그래밍의 참조 자료형
 date: 2023-10-31
-categories: [blog]
+categories: [blog, java]
 tags: [java]
 ---
 

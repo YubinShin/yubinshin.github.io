@@ -1,7 +1,7 @@
 ---
 title: Section 18 자바 Array, ArrayList
 date: 2023-11-02
-categories: [blog]
+categories: [blog, java]
 tags: [java]
 ---
 

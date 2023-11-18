@@ -1,7 +1,7 @@
 ---
 title: Section 08 객체지향 프로그래밍
 date: 2023-10-19
-categories: [blog]
+categories: [blog, java]
 tags: [java]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Section 11 원시자료형
 date: 2023-10-21
-categories: [blog]
+categories: [blog, java]
 tags: [java]
 ---
 

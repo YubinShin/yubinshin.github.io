@@ -1,7 +1,7 @@
 ---
 title: 맛이슈 배포 대작전
 date: 2023-06-23
-categories: [blog]
+categories: [blog, backend]
 layout: post
 tags:
   [

@@ -1,7 +1,7 @@
 ---
 title: 도커교과서 도커의 기본적인 사용법
 date: 2023-10-06
-categories: [blog]
+categories: [blog, backend]
 tags: [docker, container]
 ---
 

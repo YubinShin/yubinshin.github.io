@@ -1,7 +1,7 @@
 ---
 title: 혼자 공부하는 컴퓨터구조 & 운영체제
 date: 2023-08-20
-categories: [blog]
+categories: [blog, etc]
 tags: [os]
 ---
 

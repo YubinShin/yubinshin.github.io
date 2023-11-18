@@ -1,7 +1,7 @@
 ---
 title: 제로초 nest.js 강의 필기
 date: 2023-09-25
-categories: [blog]
+categories: [blog, backend]
 tags: [node.js, nest, js, aop, decorator]
 ---
 

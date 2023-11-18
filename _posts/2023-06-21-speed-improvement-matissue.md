@@ -1,7 +1,7 @@
 ---
 title: 맛이슈 속도 개선 대작전
 date: 2023-06-21
-categories: [troubleshooting]
+categories: [troubleshooting, performance_improvement]
 layout: post
 tags: [fastapi, improvement, mongodb, redis]
 ---

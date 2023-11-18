@@ -1,7 +1,7 @@
 ---
 title: AWS S3, 몽고 디비 마이그레이션 대작전
 date: 2023-06-15
-categories: [troubleshooting]
+categories: [troubleshooting, database]
 layout: post
 tags: [fastapi, aws-s3, mongodb]
 ---

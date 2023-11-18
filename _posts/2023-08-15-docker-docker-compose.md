@@ -1,7 +1,7 @@
 ---
 title: Docker & Docker-compose
 date: 2023-08-17
-categories: [troubleshooting]
+categories: [troubleshooting, devops]
 tags: [CI/CD, docker, docker-compose]
 ---
 

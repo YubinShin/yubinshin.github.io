@@ -1,7 +1,7 @@
 ---
 title: Mongodb atlas로 통합검색 만들기 대작전
 date: 2023-06-21
-categories: [troubleshooting]
+categories: [troubleshooting, database]
 tags: [mongodb, mongodbatlas, python, fastapi, database, index]
 ---
 

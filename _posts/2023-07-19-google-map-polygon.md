@@ -1,7 +1,7 @@
 ---
 title: 구글 맵 폴리곤으로 서울만 보이게 하기(동균, 유빈) (1)
 date: 2023-07-19
-categories: [troubleshooting]
+categories: [troubleshooting, web]
 layout: post
 tags: [google-map-api, react, kml, polygon]
 ---

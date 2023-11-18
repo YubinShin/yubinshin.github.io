@@ -1,7 +1,7 @@
 ---
 title: 이미지를 다른 페이지로 넘겨주기 대작전(blob 과 base64)
 date: 2023-08-18
-categories: [troubleshooting]
+categories: [troubleshooting, web]
 tags: [base64, blob, react]
 ---
 

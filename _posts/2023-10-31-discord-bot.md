@@ -1,7 +1,7 @@
 ---
 title: 디스코드 봇으로 깃허브 저장소의 이슈 체크하기 (파이썬사용)
 date: 2023-10-21
-categories: [troubleshooting]
+categories: [troubleshooting, rpa]
 tags: [python, discord, github, 업무자동화]
 ---
 

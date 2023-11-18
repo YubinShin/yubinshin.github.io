@@ -1,7 +1,7 @@
 ---
 title: 트러블슈팅 템플릿
 date: 2023-07-18
-categories: [blog]
+categories: [blog, etc]
 ---
 
 ## 트러블 슈팅 제목

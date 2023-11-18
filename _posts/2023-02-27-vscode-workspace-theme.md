@@ -1,7 +1,7 @@
 ---
 title: VScode workspace Theme
 date: 2023-02-27
-categories: [blog]
+categories: [troubleshooting, ide]
 tags: [vscode, workspace, theme]
 layout: post
 ---

@@ -1,7 +1,7 @@
 ---
 title: Nest.js 인터셉터로 AOP
 date: 2023-10-16
-categories: [troubleshooting]
+categories: [troubleshooting, security]
 tags: [nest.js]
 ---
 ## 🤔 Problem

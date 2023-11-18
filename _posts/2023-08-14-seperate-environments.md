@@ -1,7 +1,7 @@
 ---
 title: 개발, 프로덕션, 테스트 환경 분리 대작전(Package.json 과 dotenv)
 date: 2023-08-14
-categories: [troubleshooting]
+categories: [troubleshooting, devops]
 tags: [.env, node.js, nest.js, package.json, dotenv]
 ---
 

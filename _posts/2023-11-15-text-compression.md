@@ -171,6 +171,11 @@ gzip 이라는 방식을 이용하여 압축을 할 수 있다고 하여 진행�
     content-length: 115854
   ```
 
+  라이트 하우스 점수도 92점으로 올랐다.
+
+  ![image](https://github.com/YubinShin/YubinShin.github.io/assets/68121478/c4a8f690-f0a7-4d7d-a128-4446162e321b)
+
+
 ## 📎 Related articles
 
 | 이슈명                        | 링크                                                                                                                                                     |

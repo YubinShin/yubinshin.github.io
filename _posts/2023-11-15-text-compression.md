@@ -200,6 +200,9 @@ Fastapi Gzip 미들웨어 설정 후 서버를 재시작하니 아래와 같이 
 ```
 
 
+라이트 하우스 점수도 92점으로 올랐다.
+
+  ![image](https://github.com/YubinShin/YubinShin.github.io/assets/68121478/c4a8f690-f0a7-4d7d-a128-4446162e321b)
 
 
 ## 📎 Related articles

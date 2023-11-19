@@ -224,9 +224,9 @@ Fastapi Gzip 미들웨어 설정 후 서버를 재시작하니 아래와 같이 
 
 ## 📎 Related articles
 
-| 이슈명                        | 링크                                                                                                                                                     |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NGINX Docker container 만들기 | [https://velog.io/@woo94/NGINX-Docker-container-%EB%A7%8C%EB%93%A4%EA%B8%B0](https://velog.io/@woo94/NGINX-Docker-container-%EB%A7%8C%EB%93%A4%EA%B8%B0) |
-
-
-
+| 이슈명                              | 링크                                                                                                                                                     |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GNU gzip 공식문서                   | [https://www.gnu.org/software/gzip/](https://www.gnu.org/software/gzip/)                                                                                 |
+| NGINX Docker container 만들기       | [https://velog.io/@woo94/NGINX-Docker-container-%EB%A7%8C%EB%93%A4%EA%B8%B0](https://velog.io/@woo94/NGINX-Docker-container-%EB%A7%8C%EB%93%A4%EA%B8%B0) |
+| NGINX Compression and Decompression | [https://docs.nginx.com/nginx/admin-guide/web-server/compression/](https://docs.nginx.com/nginx/admin-guide/web-server/compression/)                     |
+| FastAPI gzipmiddleware              | [https://fastapi.tiangolo.com/advanced/middleware/#gzipmiddleware](https://fastapi.tiangolo.com/advanced/middleware/#gzipmiddleware)                     |

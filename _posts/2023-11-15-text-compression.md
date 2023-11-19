@@ -1,7 +1,7 @@
 ---
 title: gzip 을 사용한 텍스트 압축
-date: 2023-11-02
-categories: [troubleshooting, performance_improvement ]
+date: 2023-11-15
+categories: [troubleshooting, performance_improvement]
 tags: [gzip, fastapi, nginx]
 ---
 
@@ -9,13 +9,32 @@ tags: [gzip, fastapi, nginx]
 
 라이트하우스를 사용해 맛이슈의 성능을 평가해보았을때 텍스트 압축이 필요하다는 메시지가 나타났다.
 
-그래서 가장 많이 쓰인다는 gzip 이라는 방식을 이용하여 압축을 시도해보았다.
+그래서 가장 많이 쓰인다는 [gzip](https://www.gnu.org/software/gzip/) 이라는 방식을 이용하여 압축을 시도해보았다.
+
+<details markdown="block"><summary>gzip (GNU zip) 이 가장 많이 쓰이는 이유는? </summary>
+
+
+[GNU 웹 페이지에 GIF 파일을 사용하지 않는 이유](https://www.gnu.org/philosophy/gif.ko.html)
+
+기존에 표준이었던 Compress 압축도구는 LZW 압축알고리즘을 사용했다고합니다.
+
+Unisys라는 기업이 LZW 압축 알고리즘에 대한 특허를 가지고 있었는데, 
+
+로열티가 부담되던 개발자들과 기업은 해당 특허에 구속되지 않는 압축방식이 필요했다고 합니다.
+
+gzip은 LZW 특허와 관련이 없는 DEFLATE 압축 알고리즘을 사용했습니다. 
+
+Unisys의 LZW 특허 문제를 회피하면서 더 나은 압축 효율과 속도를 제공하는 새로운 도구로 gzip이 등장하였고,
+
+이로 인해 gzip은 특히 UNIX 및 리눅스 기반 시스템에서 빠르게 표준 압축 도구로 자리잡게 되었습니다.
+
+</details>
 
 ## 🌱 Solution
 
 ### 첫번째 시도, Nginx (실패)
 
-현재 리버스프록싱, 로드밸런싱용으로 사용하고 있는 Traefik 에는 기본적으로 텍스트압축 기능이 포함되어있지 않다고 한다.
+현재 리버스프록싱, 로드밸런싱용으로 사용하고 있는 Traefik 에는 기본적으로 텍스트 압축 기능이 포함되어있지 않다고 한다.
 
 그래서 해당 기능이 있다는 Nginx 를 컨테이너로 띄워 gzip을 설정해보았다.
 
@@ -135,7 +154,7 @@ tags: [gzip, fastapi, nginx]
 
   Server 가 uvicorn 이라는 데서 착안해 fastAPI 쪽 공식문서에 GZip 을 검색해보니, 미들웨어가 있었다.  대박사건~
   
-  [GZipMiddleware]("https://fastapi.tiangolo.com/advanced/middleware/#gzipmiddleware")
+  [GZipMiddleware](https://fastapi.tiangolo.com/advanced/middleware/#gzipmiddleware)
 
   생각보다 굉장히 간단했는데, `main.py` 에 fastapi 기본 제공인 `GZipMiddleware`를 import 하고, `app.add_middleware` 에 GZip 설정을 추가해주면 됐다.
 
@@ -199,18 +218,15 @@ Fastapi Gzip 미들웨어 설정 후 서버를 재시작하니 아래와 같이 
     content-length: 115854
 ```
 
-
 라이트 하우스 점수도 92점으로 올랐다.
 
   ![image](https://github.com/YubinShin/YubinShin.github.io/assets/68121478/c4a8f690-f0a7-4d7d-a128-4446162e321b)
-
 
 ## 📎 Related articles
 
 | 이슈명                        | 링크                                                                                                                                                     |
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | NGINX Docker container 만들기 | [https://velog.io/@woo94/NGINX-Docker-container-%EB%A7%8C%EB%93%A4%EA%B8%B0](https://velog.io/@woo94/NGINX-Docker-container-%EB%A7%8C%EB%93%A4%EA%B8%B0) |
-
 
 
 

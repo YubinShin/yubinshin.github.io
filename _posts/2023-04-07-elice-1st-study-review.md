@@ -180,9 +180,9 @@ layout: post
 
 팀원들중 대부분이 2차 스터디때도 같이 하고 싶다는 의사를 밝혀서 2차스터디가 기대가 된다.
 
-## 배포링크
+<!-- ## 배포링크
 
 [https://muzic-toktok.du.r.appspot.com/](https://muzic-toktok.du.r.appspot.com/)
 
 ![Untitled](https://user-images.githubusercontent.com/68121478/270211921-4cd2712b-b5c5-4fb7-b92e-bae68ea8d9c4.png)
-
+ -->

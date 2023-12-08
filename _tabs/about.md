@@ -3,6 +3,12 @@
 icon: fas fa-info-circle
 order: 1
 ---
+<style>
+* {
+   white-space: normal;
+   word-wrap: break-word;
+}
+</style>
 
 # 신유빈 | 해결하는 개발자
 
@@ -10,6 +16,7 @@ order: 1
 
 ---
 
+**Mobile** | 010-2030-8968
 **Email** | shin.yubin18@gmail.com
 **Github** | [https://github.com/YubinShin](https://github.com/YubinShin)
 
@@ -108,20 +115,23 @@ order: 1
 <details markdown="block"><summary> 기술 문서</summary>
 
 > [[트러블슈팅]디스코드로 깃허브 알림봇 만들기 대작전](https://yubinshin.github.io/posts/github-bot-with-discord/)
->
+> 
 > [[트러블슈팅]구글맵 폴리곤으로 서울만 보이게 하기(동균, 유빈) (1)](https://yubinshin.github.io/posts/google-map-polygon/)
->
+> 
 > [[블로그] Postgresql 과 prisma 로 배우는 관계형 데이터 베이스](https://yubinshin.github.io/posts/rdms-with-postgresql-prisma/)
->
+> 
 > [[트러블슈팅] Docker & Docker-compose](https://yubinshin.github.io/posts/docker-docker-compose/)
->
+> 
 > [[트러블슈팅]깃허브 액션으로 CI&CD대작전](https://yubinshin.github.io/posts/cicd-github-actions/)
->
+> 
 > [[트러블슈팅]개발, 프로덕션, 테스트 환경 분리 대작전(Package.json 과 env)](https://yubinshin.github.io/posts/seperate-environments/)
->
+> 
 > [[트러블슈팅]이미지를 다른 페이지로 넘겨주기 대작전(blob 과 base64)](https://yubinshin.github.io/posts/blob-base64-react/)
+> 
+> [[트러블슈팅]Nest.js 인터셉터로 AOP 구현 및 활용](https://yubinshin.github.io/posts/nest-js-interceptor/)
+> 
+> [[트러블슈팅]디스코드 봇으로 깃허브 저장소의 이슈 체크하기 (파이썬사용)](https://yubinshin.github.io/posts/discord-bot/)
 >
-> [[도서] 혼자 공부하는 컴퓨터구조 & 운영체제](https://yubinshin.github.io/posts/operating-system/)
 
 </details>
 
@@ -135,7 +145,7 @@ order: 1
 
 💻 [맛이슈](https://www.matissue.com/)
 
-💽 [맛이슈 api swagger](https://matissue.n-e.kr/docs)
+💽 [맛이슈 api swagger](https://api.matissue.com/docs)
 
 <div style="width:100%;">
   <img src="https://yubinshin.s3.ap-northeast-2.amazonaws.com/matissue-sa.png" alt="맛이슈 서비스아키텍처">
@@ -161,7 +171,7 @@ order: 1
 
 <details markdown="block"><summary> 기술 문서</summary>
 
-> [[배포]맛이슈 배포 대작전](https://www.notion.so/04511f2db0fb4c1a81d293ce577de5bc?pvs=21)
+> [[트러블슈팅]gzip을 사용한 텍스트 압축](https://yubinshin.github.io/posts/text-compression/)
 >
 > [[트러블슈팅]Mongodb atlas로 통합검색 만들기 대작전](https://yubinshin.github.io/posts/mongo-db-search/)
 >
@@ -255,7 +265,7 @@ order: 1
         </div></div> -->
 
   
-### 엘리스 SW 4기
+### 엘리스
 
 2023.02 ~ 2023.06
 

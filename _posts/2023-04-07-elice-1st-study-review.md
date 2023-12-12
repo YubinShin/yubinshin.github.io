@@ -81,7 +81,7 @@ layout: post
 
 
    <div style="width: 80%;">
-      <img src="https://user-images.githubusercontent.com/68121478/270211915-63059296-6abf-44c6-8bd6-17fad8521af1.png" alt="구글드라이브">
+      < src="https://user-images.githubusercontent.com/68121478/270211915-63059296-6abf-44c6-8bd6-17fad8521af1.png" alt="구글드라이브">
    </div>
 
 따로 ppt를 양식에 맞춰 생성하고..이름을 적고.. 제목을 통일하고.. 나도 예전에 이런 과정에서 매우 피로도를 느꼈기 때문에 한번에 생성해주는 방법을 선택했는데, 아마 팀원들이 직접 발표자료를 만들게끔 했다면 매주 발표가 100프로 실패했을거라 생각한다.
@@ -93,7 +93,7 @@ layout: post
 매주 일요일 점심 먹고 편하게 한주 간 진행한 내용을 공유하고, 서로 궁금한 점을 질문하거나 피드백을 나누는 시간을 가졌다. 양식이 정해진게 아니라 각각의 취향이 담긴 작품을 만들었기 때문에 서로 궁금한 점도 많고 배울 점도 많았다.
 
    <div style="width: 80%;">
-      <img src="https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-04-07-elice-1st-study-review/1.png" alt="기립박수">
+      < src="https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-04-07-elice-1st-study-review/1.png" alt="기립박수">
    </div>
 
    <div style="display: flex; align-items : center;">

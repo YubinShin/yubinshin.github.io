@@ -1,5 +1,5 @@
 ---
-title: 사용자 수에 따른 규모 확장성
+title: 가상 면접 사례로 배우는 대규모 시스템 설계 기초 - 사용자 수에 따른 규모 확장성
 date: 2023-12-12
 categories: [blog]
 tags: [book]

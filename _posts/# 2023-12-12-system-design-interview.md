@@ -1,7 +1,7 @@
 ---
 title: 가상 면접 사례로 배우는 대규모 시스템 설계 기초
 date: 2023-12-12
-categories: [blog]
+categories: [blog, system-architecture]
 tags: [book]
 ---
 

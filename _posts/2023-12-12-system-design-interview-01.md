@@ -1,7 +1,7 @@
 ---
-title: 가상 면접 사례로 배우는 대규모 시스템 설계 기초 - 사용자 수에 따른 규모 확장성
+title: 가상 면접 사례로 배우는 대규모 시스템 설계 기초 - 사용자 수에 따른 규모 확장성_01
 date: 2023-12-12
-categories: [blog]
+categories: [blog, system_design]
 tags: [book]
 ---
 
@@ -79,25 +79,3 @@ Master - Slave 로 데이터베이스 서버 간 관계를 설정해둔다.
 
 혹시나 Master DB가 다운되면 원래 있던 Slave DB가 승진한다. 그리고 새로운 서버를 추가하면 된다. 부 서버에 있던 데이터가 최신이 아닐 수 있기 때문에 **복구 스크립트**를 돌려 추가 하면 된다. (다중 마스터나 원형 다중화 방식을 도입하면 도움이 될 수 있으나 훨씬 복잡하기때문에 따로 찾아보길 바란다.)
 
-## 응답시간 줄이기 
-
-###  캐시
-
-캐시란, 값비싼 연산 결과 또는 자주 참조되는 데이터를 메모리 안에 두고, 뒤 이은 요청이 보다 빨리 처리될 수 있도록 하는 저장소이다. 
-
-앱의 성능은 통상 DB를 얼마나 자주 호출하느냐에 크기 좌우되는데, 캐시를 사용하면 그런 문제를 크게 완화할 수 있다.(아래 동영상을 보면 캐싱 모듈 적용 전후로 21ms 에서 3ms 로 응답 시간이 줄어드는 걸 볼 수 있다.)
-
-<iframe width="573" height="322" src="https://www.youtube.com/embed/KXnkhWRCj40;" title="Nest.js Caching Tutorial in 15 Minutes (Redis + Unit Testing)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-#### 캐시 사용 시 유의 해야 할 점
-
-1. 데이터 갱신은 자주 일어나지 않지만 참조는 빈번하게 일어난다면 캐시를 사용해볼만 하다.
-2. 캐시는 캐시서버가 재시작되면 모든 데이터가 사라지기 때문에 중요한 정보는 여전히 지속적 저장소에 두어야한다.
-3. 캐시 데이터의 만료 정책을 마련해 두어야한다. 만료 기간이 너무 짧으면 db를 너무 자주 읽게 되어서 곤란하고, 길면 원본 db와 차이가 날 가능성이 높아진다.
-4. 일관성 유지에 신경을 써야한다. 일관성(consistency)란 DB 내 원본 데이터와 캐시 내 사본이 동일한지 여부다. 여러 지역에 걸쳐 시스템이 확장된다면 단일 트랜잭션으로 DB와 캐시를 갱신하는게 어려워진다. 필요 시 아래 논문을 참고 해보자.
-[Scaling Memcache at Facebook
-](https://research.facebook.com/publications/scaling-memcache-at-facebook/)
-5. 캐시 서버가 앱의 **단일 장애 지점**이 되는 것을 피하기 위해 여러 지역에 걸쳐 캐시 서버를 분산 시켜야 한다.
-6. 캐시 메모리의 크기를 적절히 정해야 한다. 메모리 크기가 너무 작으면 데이터가 너무 자주 밀려나 버려 성능이 떨어질 수 있다. 이를 막으려면 캐시 메모리를 과할당(overprovision)하는 것도 좋은 방법이다. 이 방법을 쓰면 갑자기 캐싱할 데이터가 늘어도 안심이다.
-7. 캐시 데이터 방출 정책을 경우에 맞게 적용하자. LRU, LFU, FIFO 등이 있다. [참고 - 페이지 교체 알고리즘](https://ko.wikipedia.org/wiki/%ED%8E%98%EC%9D%B4%EC%A7%80_%EA%B5%90%EC%B2%B4_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)

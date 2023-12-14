@@ -1,6 +1,6 @@
 ---
 title: 스프링 부트로 배우는 기본적인 웹앱 만들기 
-date: 2023-12-12
+date: 2023-12-08
 categories: [blog, java]
 tags: [java, spring_boot, restapi, mvc]
 ---

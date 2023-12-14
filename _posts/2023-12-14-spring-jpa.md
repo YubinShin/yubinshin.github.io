@@ -1,6 +1,6 @@
 ---
 title: 스프링 부트로 배우는 JPA
-date: 2023-12-12
+date: 2023-12-14
 categories: [blog, java]
 tags: [java, spring_boot, orm]
 ---

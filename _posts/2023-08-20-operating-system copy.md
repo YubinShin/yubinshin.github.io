@@ -1,8 +1,8 @@
 ---
-title: 혼자 공부하는 컴퓨터구조 & 운영체제
+title: 혼자 공부하는 컴퓨터구조 & 운영체제 - 컴퓨터 구조
 date: 2023-08-20
-categories: [blog, etc]
-tags: [os]
+categories: [blog, os]
+tags: [book]
 ---
 
 ![https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/6.png](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-08-20-operating-system/6.png)

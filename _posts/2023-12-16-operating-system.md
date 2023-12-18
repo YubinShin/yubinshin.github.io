@@ -1,8 +1,8 @@
 ---
 title: 혼자 공부하는 컴퓨터구조 & 운영체제 - 운영 체제
 date: 2023-12-15
-categories: [blog, etc]
-tags: [os]
+categories: [blog, os]
+tags: [book]
 ---
 
 ## 운영 체제란? (Operating System)

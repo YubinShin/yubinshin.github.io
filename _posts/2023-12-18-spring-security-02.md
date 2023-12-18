@@ -1,5 +1,5 @@
 ---
-title: 스프링 부트로 배우는 Spring Security-2 비밀번호 관련
+title: 스프링 부트로 배우는 Spring Security-02 비밀번호 관련
 date: 2023-12-18
 categories: [blog, java]
 tags: [java, spring_boot, security]

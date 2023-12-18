@@ -1,5 +1,5 @@
 ---
-title: 스프링 부트로 배우는 Spring Security
+title: 스프링 부트로 배우는 Spring Security-1
 date: 2023-12-18
 categories: [blog, java]
 tags: [java, spring_boot, security]
@@ -280,10 +280,9 @@ Spring MVC 사용시 글로벌 설정, 로컬 설정(컨트롤러 별) 2가지 �
         }
     }
    ```
-   
+
 ### DB에 저장하기
 JDBC, JPA 로 자격증명을 검색합니다.
-레디스 등에 저장합니다.
 
 ### LDAP (Lightweight Directory Access Protocol)
 - 오픈 프로토콜을 씁니다.

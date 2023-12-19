@@ -10,6 +10,7 @@ tags: [java, spring_boot, orm]
 
 ### JPA (Jakarta Persistence API)
 JPA는 Java의 표준 **ORM** (Object-Relational Mapping) 명세입니다. 이는 객체와 관계형 데이터베이스 테이블 간의 매핑을 쉽게 해주는 규칙과 API를 제공합니다.
+JPA는 Java의 표준 **ORM** (Object-Relational Mapping) 명세입니다. 이는 객체와 관계형 데이터베이스 테이블 간의 매핑을 쉽게 해주는 규칙과 API를 제공합니다.
 
 JPA 어노테이션들 
 `@Entity`, `@Column` 등은 JPA가 제공하는 어노테이션으로, 엔터티의 속성과 데이터베이스 컬럼 간의 매핑을 정의합니다. `@EntityManager`는 JPA의 핵심 클래스 중 하나로, 엔터티의 생명 주기를 관리합니다.

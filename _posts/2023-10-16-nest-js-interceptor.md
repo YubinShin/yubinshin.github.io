@@ -1,5 +1,5 @@
 ---
-title: Nest.js 인터셉터로 AOP
+title: Nest.js 인터셉터로 AOP 구현 및 보안 개선
 date: 2023-10-16
 categories: [troubleshooting, security]
 tags: [nest.js]
@@ -126,7 +126,7 @@ export class UserSubCheckInterceptor implements NestInterceptor {
 [https://github.com/fog-of-war/dev-be/blob/dev/src/common/interceptor/user-sub-check.interceptor.ts](https://github.com/fog-of-war/dev-be/blob/dev/src/common/interceptor/user-sub-check.interceptor.ts)
 
 
-<s markdown="block"><summary>상세설명</summary>
+<details markdown="block"><summary>상세설명</summary>
 > `return await next.handle().toPromise()` 는 RxJS의 Observable을 사용하여 작성된 코드입니다. 
 > 
 > 이 코드는 next.handle()로부터 반환된 Observable을 Promise로 변환하여 비동기 작업을 수행합니다.

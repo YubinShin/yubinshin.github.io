@@ -11,7 +11,7 @@ categories: [reviews]
 
 이메일로 응시 링크가 전달왔고, HackerRank 라는 플랫폼에서 영문으로 응시하는 테스트였다. 처음 응시해보는 코딩테스트이니 너무 겁먹지 않고 응시 해보려고 노력했다.
 
-> HackerRank 사이트를 둘러보는데 요즘 보는 Office 회사가 Job Board 에 있어서 반가웠다ㅋㅋㅋ
+> HackerRank 사이트를 둘러보는데 요즘 보는 드라마 The Office 회사가 Job Board 에 있어서 반가웠다ㅋㅋㅋ
 > ![https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-12-15-hacker_rank/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7+2023-12-15+195926.png](https://yubinshin.s3.ap-northeast-2.amazonaws.com/2023-12-15-hacker_rank/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7+2023-12-15+195926.png)
 
 요즘 자바와 스프링으로 프로젝트를 하고 있어서 JavaScript, TypeScript 로 코드를 작성하는게 색다르고 재밌었다. 전체 영어 지문의 압박이 있긴 했지만 개발 관련 철자는 눈에 보여서 다행이었다.

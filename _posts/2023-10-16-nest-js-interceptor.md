@@ -1,5 +1,5 @@
 ---
-title: Nest.js 인터셉터로 AOP 구현 및 보안 개선
+title: Nest.js 인터셉터로 AOP 구현 및 보안 개선(진행중)
 date: 2023-10-16
 categories: [troubleshooting, security]
 tags: [nest.js]

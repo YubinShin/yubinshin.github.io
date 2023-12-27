@@ -1,6 +1,6 @@
 ---
 title: Jekyll Blog 빌드 오류 해결 google-protobuf
-date: 2023-12-19
+date: 2023-12-27
 categories: [blog, etc]
 tags: [jekyll, ruby]
 ---

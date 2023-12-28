@@ -15,9 +15,8 @@ tags: [jekyll, ruby]
 여러 방법을 시도하며 고통받고 있었는데,
 
 최신순으로 구글링 하다가 나랑 똑같은 시간대에 동일한 문제가 나타난 게시글을 찾았다.
-[https://talk.jekyllrb.com/t/build-error-at-setup-ruby-stage-of-build-and-deploy-on-actions/8782](https://talk.jekyllrb.com/t/build-error-at-setup-ruby-stage-of-build-and-deploy-on-actions/8782)
 
-루비 버전을 3.2 로 올려서 해결했다는데, 내 로컬 컴퓨터에서 아무리 봐도 3.2 보다 높았다.
+거기선 루비 버전을 3.2 로 올려서 해결했다는데, 내 로컬 컴퓨터에서 아무리 봐도 3.2 보다 높았다.
 
 ```sh
 root@yubin:~/YubinShin.github.io# ruby --version
@@ -69,8 +68,6 @@ Error: The process '/opt/hostedtoolcache/Ruby/3.3.0/x64/bin/bundle' failed with 
 ## 🌱 Solution
 
 해결법은 github actions workflow 파일에서 루비버전을 변경해주는 것이었다.
-
-이후에도 다른 유저가 내 질문을 인용하거나 like 가 찍히길래 해당 질문에도 해결 코드를 올렸다.
 
 ```md
 ruby-version: 3.2

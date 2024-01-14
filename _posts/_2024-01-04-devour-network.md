@@ -1,5 +1,5 @@
 ---
-title: Network 모델 맛있게 먹기
+title: Network 모델 맛있게 먹기(작성중)
 date: 2024-01-04
 categories: [blog, network]
 tags: []
